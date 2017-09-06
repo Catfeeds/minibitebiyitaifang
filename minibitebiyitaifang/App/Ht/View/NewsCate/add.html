@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>后台管理</title>
+<link href="__PUBLIC__/ht/css/main.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="__PUBLIC__/ht/js/jquery.js"></script>
+<script type="text/javascript" src="__PUBLIC__/ht/plugins/xheditor/xheditor-1.2.1.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/ht/plugins/xheditor/xheditor_lang/zh-cn.js"></script>
+</head>
+<body>
+<div class="aaa_pts_show_1">【 新闻分类管理 】</div>
+<div class="aaa_pts_show_2">   
+    <div class="aaa_pts_3">
+      <form action="{:U('save')}" method="post" onsubmit="return ac_from();" enctype="multipart/form-data">
+      <ul class="aaa_pts_5">
+         <li>
+            <div class="d1">栏目名:</div>
+            <div>
+              <input class="inp_1" name="name" id="name" value="<?php echo $cate_info['name']; ?>"/>
+            </div>
+         </li>
+		     <li>
+            <div style="color:#c00; font-size:14px; padding-left:20px;">上传图标大小: 100*100（透明底png）</div>
+         </li>
+         <li data-index="0">
+            <div class="d1">图标:</div>
+            <div>
+              <input type='hidden' name="bz_3" id="icon" value="<?php echo $cate_info['bz_3']; ?>">
+              <!-- <iframe class="pro_2" src="__DATA__/inc/photo_add.php?id=icon&width=50&height=50" frameborder="0"></iframe> -->
+              <?php if ($cate_info['bz_3']) { ?>
+              <img src="__DATA__/<?php echo $cate_info['bz_3']; ?>" width="60" height="60" />
+              <?php } ?>
+              <input type="file" name="file" id="bz_3" />
+            </div>
+         </li>
+         <li>
+            <div class="d1">栏目介绍:</div>
+            <div>
+              <textarea class="inp_1 inp_8" name="concent" id="concent"/><?php echo $cate_info['concent']; ?></textarea>
+            </div>
+         </li>
+         <li>
+            <div class="d1">排 序:</div>
+            <div>
+              <input class="inp_1" name="sort" id="sort" value="<?php echo $cate_info['sort']; ?>"/>
+            </div>
+         </li>
+         <li><input type="submit" name="submit" value="提交" class="aaa_pts_web_3" border="0">
+         <input type="hidden" name="cid" id="cid" value="<?php echo $cate_info['id']; ?>">
+         </li>
+      </ul>
+      </form>
+         
+    </div>
+    
+</div>
+<script>
+function ac_from(){
+  //判断栏目名称
+  var name=document.getElementById('name').value;
+  if(name.length<1){
+	  alert('栏目名不能为空.');
+	  return false;
+	  }
+  return true;
+}
+
+//初始化编辑器
+$('#concent').xheditor({
+	skin:'nostyle'
+});
+</script>
+</body>
+</html>

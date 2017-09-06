@@ -1,0 +1,110 @@
+.found_top image {
+  width: 130rpx;
+  height: 130rpx;
+  border:1px solid #d9d9d9;
+  border-radius: 7px;
+  margin-left: 20rpx;
+  margin-top: 32rpx;
+}
+.found_img {
+  width: 27%;
+}
+.found_top {
+  border-top: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
+  display: flex;
+  height: 200rpx;
+   margin-top: 50rpx;  
+  margin-bottom: 50rpx;
+  background: #fff;
+}
+.found_user_name {
+  border-bottom: 1px solid #d9d9d9;
+  height: 50%;
+  line-height: 100rpx;
+}
+.found_top_text {
+  width: 100%;
+  padding-left: 50rpx;
+  box-sizing: border-box;
+}
+.found_top_text input {
+  height: 50%;
+  font-family: "微软雅黑";
+  font-weight: 500;
+}
+page {
+  font-size: 30rpx;
+  font-family: "微软雅黑";
+}
+.found {
+  background: #efeff4;
+  height: 100%;
+  width: 100%;
+}
+/*输入公司信息  */
+.company_text {
+  color: red;
+  font-size: 36rpx;
+}
+.found_border {
+  border-top: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
+  background: #fff;
+  margin-bottom: 50rpx;
+}
+.found_company {
+  display: flex; 
+  height: 100rpx;
+}
+.found_company_left {
+  width: 27%;
+  padding-left: 20rpx;
+  box-sizing: border-box;
+  height: 100rpx;
+  line-height: 100rpx;
+}
+.found_company input {
+   height: 100%;
+}
+.bottom {
+  margin-left:20rpx;
+  border-bottom: 1px solid #d9d9d9;
+}
+/*textarea  */
+.textarea {
+  display: flex;
+  border-bottom: 1px solid #d9d9d9;
+  border-top: 1px solid #d9d9d9;
+  height: 200rpx;
+  background: #fff;
+  padding-top: 20rpx;
+  overflow: hidden;
+}
+.textarea_text {
+  width: 27%;
+  padding-left:20rpx;
+}
+.textarea textarea {
+  height: 100%;
+}
+.buttom {
+  width: 100%;
+  float: left;
+  padding:0 20rpx;
+  box-sizing: border-box;
+  margin-top: 30rpx;
+  margin-bottom: 20rpx;
+}
+.bottom button {
+  width: 100%;
+  background: green;
+}
+.found_company picker{
+  line-height: 100rpx;
+  width: 70%;
+  height: 100rpx;
+}
+.picker_text {
+  color:#fff;
+}

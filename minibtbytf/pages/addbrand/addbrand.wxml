@@ -1,0 +1,39 @@
+<view class="container">
+ 
+  <view class="classname">
+
+
+  <form bindsubmit="addbrand">      
+        <view class="xing">品牌名称：   
+          <input placeholder-class='placeholder' placeholder='请输入品牌名称' class="in" name="name"/>
+         </view>
+         <view class="xing" style="height:300rpx">品牌介绍：   
+                  <textarea class="i" name='digest' placeholder="限255个字符"/>
+         </view>    
+<!--缩略图-->
+<view class="t">品牌图↓</view>
+<view class="ii">(限制jpg、png、jpeg，像素：300*300）</view>
+<view class="page-body-info">
+
+    <view class="kk">
+
+      <block wx:if="{{imagemin}}">
+          <image src="{{imagemin}}" style="width:200rpx;height:200rpx" mode="aspectFit" bindtap="del"></image>
+      </block>
+
+      <block wx:else>
+        <view class="image-plus image-plus-nb" bindtap="uploadbrand">
+          <image src="../../images/s.png" style="width:200rpx;height:200rpx"></image>
+        </view>
+      </block>
+
+    </view>
+
+</view>
+<!--end-->
+
+    <button type="" form-type="submit" hover-class='button-hover' class='su'>立即添加</button>
+   </form>   
+   </view>
+
+</view> 

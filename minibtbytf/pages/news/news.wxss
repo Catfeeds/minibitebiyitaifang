@@ -1,0 +1,22 @@
+@import "../../wxParse/wxParse.wxss";
+.biaoti{
+    text-align: center;
+    padding: 30rpx 50rpx;
+    font-weight: 700;
+    line-height: 60rpx;
+    padding-bottom: 10rpx;
+}
+.riqi{
+    margin-left: 20rpx;
+    text-align: center;
+    font-size: 28rpx;
+    color: #ccc;
+    margin: 0 auto;
+    padding-bottom: 20rpx;
+}
+.news{
+    padding: 20rpx 3rpx;
+}
+.nei{
+    text-indent: 70rpx
+}

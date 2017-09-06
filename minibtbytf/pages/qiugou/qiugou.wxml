@@ -1,0 +1,18 @@
+<view class="tab-right">
+  <view class="list" style="margin-top:25rpx;" wx:for="{{gongqiu}}">
+    <text class="jie">发布时间：{{item.addtime}}</text>
+    <view class="zhuan">状态：{{item.desc}}</view>
+    <view class="boxx">
+      <view class="fon">
+        {{item.content}}
+      </view>
+      <view class="riqi">接单人：{{item.rec_name}}</view>
+      <view class="ri">联系电话：{{item.rec_phone}}</view>
+      <view class="ll">
+        <button class="kk" bindtap="cancels" data-id="{{item.id}}" wx:if="{{item.state==1}}">不合适</button>
+        <button class="kk" bindtap="del" data-id="{{item.id}}" wx:if="{{item.state==0}}">关闭需求</button>
+      </view>
+    </view>
+    
+  </view>
+</view>

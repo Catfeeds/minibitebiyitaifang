@@ -1,0 +1,58 @@
+<view class="cont">
+  <form bindsubmit="reg">
+    <view class="myphone">昵称:</view>
+    <view class="myphone_input">
+      <input placeholder="请输入昵称" name="uname" value="{{info.uname}}" />
+    </view>
+    <view class="myphone">邮箱:</view>
+    <view class="myphone_input">
+      <input placeholder="请输入邮箱" name="email" value="{{info.email}}" />
+    </view>
+
+    <view class="myphone">微信号:</view>
+    <view class="myphone_input">
+      <input placeholder="请输入微信号" name="weixin" value="{{info.weixin}}" />
+    </view>
+
+    <view class="myphone">手机号码:</view>
+    <view class="myphone_input">
+      <input placeholder="请输入手机号" name="tel" value="{{info.tel}}" />
+    </view>
+
+
+    <view class="myphone">性别选择:</view>
+
+
+    <!--一-->
+
+    <view class="tab-left" bindtap="tabFun">
+
+      <view class="{{tabArr.curHdIndex=='0'? 'active' : ''}}" id="tab-hd01" data-id="0">保密</view>
+
+      <view class="{{tabArr.curHdIndex=='1'? 'active' : ''}}" id="tab-hd02" data-id="1">男</view>
+
+      <view class="{{tabArr.curHdIndex=='2'? 'active' : ''}}" id="tab-hd03" data-id="2">女</view>
+
+    </view>
+
+
+
+    <!--二-->
+    <checkbox-group class="group" bindchange="checkboxChanges">
+      <view class="label-1" wx:for-items="{{checkboxItems}}">
+
+        <label>
+            <checkbox hidden value="{{item.name}}" checked="{{item.checked}}"></checkbox>
+            <view class="label-1__icon">
+                <view class="label-1__icon-checked" style="opacity:{{item.checked ? 1: 0}}">
+                </view>
+            </view>
+        </label>
+      </view>
+
+    </checkbox-group>
+    
+
+    <button class="but" form-type="submit">保存</button>
+  </form>
+</view>

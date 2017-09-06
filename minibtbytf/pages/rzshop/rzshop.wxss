@@ -1,0 +1,138 @@
+.cont {
+  font-family: "微软雅黑";
+  height: 100%;
+  width: 100%;
+}
+
+.tou{
+  display: flex;
+  justify-content: center;
+  background: #d9002f;
+  color: 	#fff;
+  font-size: 24rpx;
+}
+.tou view{
+ padding: 25rpx 20rpx;
+}
+.jiao{
+    float:left;
+    clear:both;  
+    font-size: 0;  
+    line-height: 0;  
+    border-width: 13px;  
+    border-color:  #d9002f;  
+    border-bottom-width: 0;  
+    border-style: dashed;  
+    border-top-style: solid;  
+    border-left-color: transparent;  
+    border-right-color: transparent;  
+}
+.san{
+  position: absolute;
+  top: 55rpx;
+  left:332rpx;
+}
+.qiyesan{
+  position: absolute;
+  top: 55rpx;
+  left:426rpx;
+}
+
+
+/*店铺*/
+.log {
+  display: flex;
+  background: #fff;
+  margin-top: 20rpx;
+  align-content: center;
+  height: 150rpx;
+}
+
+.log_s {
+  font-size: 32rpx;
+  height: 150rpx;
+  line-height: 150rpx;
+  flex: 1;
+  text-align: center;
+  padding-left: 30rpx;
+}
+
+.cl_img {
+  width: 150rpx;
+  height: 150rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left:71rpx;
+}
+
+.cl_img image {
+  width: 120rpx;
+  height: 120rpx;
+
+}
+.log_o{
+  flex: 1
+}
+.log_g{
+  flex: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+/*店铺名字*/
+.shopstore{
+   display: flex;
+   width: 100%;
+   background: #fff;
+   padding: 20rpx 0;
+   font-size: 32rpx;
+
+}
+.shopstore_log{
+   width: 100%;
+   display: flex;
+
+}
+.in{
+  width: 70%;
+  padding-left: 30rpx;
+  font-family: "微软雅黑";  
+}
+.tishi{
+ width:100%;font-size:26rpx;
+ text-align: right;
+ padding: 20rpx 0;
+ color: #999;
+ padding-right: 10rpx;
+}
+.section{
+  background: #fff
+}
+.xian{
+  width: 90%;
+  background: #ccc;
+  height: 2rpx;
+}
+.jieshang{
+  margin-left:30rpx; 
+  padding: 20rpx 0;
+  font-size: 32rpx;
+
+}
+.xian{
+  margin-left:25rpx; 
+  margin-bottom: 20rpx;
+}
+textarea{
+  width: 100%;
+  margin-left: 20rpx;
+}
+
+button{
+  background: #d9002f;
+  color: #fff;
+  width: 80%;
+  font-size: 34rpx;
+}

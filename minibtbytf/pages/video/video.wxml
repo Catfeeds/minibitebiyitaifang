@@ -1,0 +1,28 @@
+
+
+<view class="section">
+  <video id="myVideo" src="{{info.video}}" danmu-list="{{danmuList}}"  controls></video>
+
+  <view class="shuoming">
+  <view class="btn-area" bindtap="svip">
+{{info.digest}}
+  </view>
+
+<text style="margin-left:20rpx;font-size:29rpx">浏览量：{{info.visit}}</text>
+
+
+<text class="cha" style="float:right;margin-right:40rpx;font-size:26rpx" data-id="{{info.pro_id}}" bindtap="gotopro">查看商品</text>
+  
+  <view class="tuijian"><text style="color:red">▏</text>详情</view>
+  </view>
+  <view class="content">
+    <import src="../../wxParse/wxParse.wxml"/> 
+    <view class="wxParse">
+        <scroll-view  scroll-y='true'>
+          <template is="wxParse" data="{{wxParseData:content.nodes}}"/>
+        </scroll-view>
+    </view>
+  </view>
+
+
+</view>

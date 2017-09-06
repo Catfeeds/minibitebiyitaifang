@@ -1,0 +1,88 @@
+.tab{ 
+ flex-direction: row; 
+ width: 100%;
+} 
+.tab-left{ 
+ width:100%; 
+ line-height: 160%; 
+ font-size: 34rpx;
+ border-top: solid 1px gray; 
+ border-bottom: solid 1px gray; 
+} 
+.tab-left view{ 
+  text-align: center;
+  display:inline-block;
+  width: 50%;
+  height: 38px;
+  line-height: 38px;
+  font-family: "微软雅黑", "黑体";
+} 
+.tab-left .active{ 
+ color: white; 
+ background: #78909c;
+} 
+.tab-right{ 
+ line-height: 160%; 
+} 
+.tab-right .right-item{ 
+  padding: 30rpx 20rpx;
+  height: 100rpx;
+  border-bottom: 1px solid #ccc
+} 
+.tab-right .right-item.active{ 
+ display: block; 
+}
+.ig{
+width:100rpx;
+height:100rpx;
+float: left
+}
+.boxx{
+  display: inline-block;
+  width:70%;
+  padding-left: 20rpx;
+  margin-top:-10rpx;
+}
+
+.cheng{
+   font-family: "微软雅黑", "黑体";
+   font-size: 28rpx;
+   color: #666666;
+   margin-top:20rpx;
+}
+.moreButton {
+  margin-top: 20rpx;
+  width: 100%;
+  height: 40rpx;
+  text-align: center;
+  /*line-height: 80rpx;*/
+  font-size: 28rpx;
+  /*color: #ccc;*/
+}
+.mt10{
+  margin: 0 auto;
+  text-align: center;
+  height: 70rpx;
+  width: 450rpx;
+  line-height: 70rpx;
+  border-radius:10rpx; 
+  border: 1px solid #999;
+  font-size: 30rpx;
+  margin-top: 20rpx;
+  margin-bottom: 30rpx;
+}
+/*品牌字体*/
+.ming{
+   font-family: "微软雅黑", "黑体";
+   font-weight: 700;
+   font-size:28rpx;
+}
+.digest{
+  color: #666666;
+  font-size: 24rpx;
+  margin-top: -10rpx;
+  font-family: "微软雅黑", "黑体";
+  line-height:30rpx;
+}
+
+

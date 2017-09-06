@@ -1,0 +1,26 @@
+
+@charset "utf-8";
+body{min-width: 1200px;width: 100%;height: 100%;background-color:#d6d6d6;}
+
+
+.body .tishi{width:370px;height:205px;background-color: pink;margin:270px auto;border-radius:8px ;}
+.tishi .tishi_top{width: 100%;height: 50%;background-color: #e50014;border-radius:8px 8px 0px 0px;}
+.tishi .tishi_top em{color: #f48691;font-weight: bold;}
+.tishi .tishi_top .yincang{float: right; margin: 5px 10px 5px 0px;font-size: 18px;width:15px;height: 15px;text-align: center ;}
+.tishi .tishi_top .yincang a{color: #b0000a;}
+
+.tishi .tishi_buttom{width: 100%;height: 50%;background-color:white;border-radius:0px 0px 8px 8px}
+.tishi .tishi_buttom p{text-align: center;font-size: 15px;}
+.tishi .tishi_buttom .p1{padding: 25px 0px 0px 0px;color:#606060 ;}
+.tishi .tishi_buttom .p2{padding: 5px 0px 0px 0px;}
+
+
+
+
+
+
+
+
+
+
+

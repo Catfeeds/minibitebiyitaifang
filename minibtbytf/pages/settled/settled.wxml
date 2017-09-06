@@ -1,0 +1,53 @@
+<view class="container">
+  <image class="tit" src="{{guanggao}}"></image>
+
+  <view class="classname">
+
+
+    <form bindsubmit="reg">
+      <view class="xing">店铺名称：
+        <input placeholder-class='placeholder' placeholder='请输入店铺名称' class="in" name="shopname" />
+      </view>
+
+      <view class="xing">主营项目：
+        <input placeholder-class='placeholder' placeholder='请输入主营项目' class="in" name='cover' />
+      </view>
+      <view class="xing">联系人：
+        <input placeholder-class='placeholder' placeholder='请输入联系人' class="in" name='linkname' />
+      </view>
+
+      <view class="xing">电话：
+        <input placeholder-class='placeholder' placeholder='请输入你的电话' type='number' class="in" name='tel' />
+      </view>
+
+      <view class="xing">微信：
+        <input placeholder-class='placeholder' placeholder='请输入你的微信' class="in" name='weixin' />
+      </view>
+      <view class="xi">店铺介绍：
+        <textarea placeholder-class='placeholder' placeholder='请简单介绍一下店铺' class="i" name='digest' />
+      </view>
+      <view class="jj">请仔细填写联系方式，保证我们能尽快联系到你！</view>
+
+      <view class="shuoming">
+
+        <checkbox-group class="group" bindchange="checkboxChange">
+          <view class="label-1" wx:for-items="{{checkboxItems}}">
+            <label>
+            <checkbox hidden value="{{item.name}}" checked="{{item.checked}}"></checkbox>
+            <view class="label-1__icon">
+                <view class="label-1__icon-checked" style="opacity:{{item.checked ? 1: 0}}"></view>
+            </view>
+        </label>
+            <text class="label-1__text">{{item.value}}</text><text class="label-2__text" style="color:#7171C6" bindtap="modalTap">【入驻申请协议】</text>
+          </view>
+        </checkbox-group>
+
+
+      </view>
+
+
+      <button type="" form-type="submit" hover-class='button-hover' class='su'>立刻申请入驻</button>
+    </form>
+  </view>
+
+</view>

@@ -1,0 +1,127 @@
+
+@charset "utf-8";
+
+
+body{min-width: 1200px;background-color: #f1f1f1;}
+
+/*最大 div*/
+.content{background-color:#f1f1f1;margin-top:40px;}
+
+/*<!--头部-->*/
+ul li{list-style: none;}
+.toubu{width: 100%;background-color:#f9f9f9;position:relative;z-index:10000;position:fixed;top:0px;min-width: 1000px;}
+.dingbu{width: 64.3%;height: 40px;line-height: 40px;background-color:#f9f9f9;margin: 0 auto;min-width: 1000px;}
+.dingbu>div{display:block;float:left;}
+.dingbu .db_zuo{width: 220px;height: 40px;line-height: 40px;font-size: 12px;}
+.dingbu .db_zuo a{color: #555555;}
+.dingbu .db_zuo em a{color: red;}
+.dingbu .db_you{width: 624px;height: 40px;line-height: 40px;float: right;position: relative; margin-right: -95px;}
+.subNav{cursor:pointer;font-size:12px;color:#999;height: 39px;line-height:39px;width:100%;}
+.subNav img{vertical-align:middle;}
+.subNav:hover{color:red;background-color:white;}
+span.shu{color:#b8b8b8;}
+span.shu:hover{color:#b8b8b8;}
+.currentDd{color:#555555}
+.subNavBox{width:15%;display: block;float: left; height: 39px;text-align: center;}
+.subNavBox1{width:11%;display: block;float: left;height: 39px;text-align: center;}
+.subNav1{cursor:pointer;font-size:12px;color:#999;height: 39px;line-height:39px;}
+.subNav1:hover{color:red;}
+.currentDd1{color:#555555}
+.navContent{display: none;margin-top: -2px;margin-left:40px;width:58%;}
+.navContent li{position: relative;z-index: 22222;left: 0px;margin-left: -42px;background:#f9f9f9;height: 25px;width: 96.88px;line-height:25px;}
+.navContent li a{color: #555;width:100%;height: 25px;}
+.navContent li a:hover{color:#c81622;background-color:white;height: 25px;width: 96.88px;display: inline-block;}
+.ara li a:hover{color:#c81622;background-color:white;height: 90px;width: 150px;display: inline-block;}
+.ara li{height: 90px;width: 150px;}
+
+
+/*<!--个人中心  标题-->*/
+.gouwuchebt{width: 100%;height: 93px;line-height:100px;}
+.gouwuchebt>div{display: block;;float: left;}
+.gouwuchebt .logo{width:17%;height:100%;border: 1px solid #e4e4e4;background-color:white;}
+.gouwuchebt .logo img{width: 100%;height: 100%;}
+.gouwuchebt .hyzc{height: 50px;width:160px;line-height: 50px;margin-top: 24px;margin-left: 20px;text-align: center;font-size: 30px;border-left: 2px solid #e4e4e4;}
+
+/*<!-搜索商品>*/
+.geren_sousuo{width: 19%;height: 100%;float: right;display: block;max-width:250px;margin-top: -40px;}
+.geren_sousuo input{width: 180px;height: 27px;line-height: 27px;border: 1px solid #e4e4e4;text-indent:0.5em;margin-top: 1px;font-size: 12px;}
+.geren_sousuo button{width:40px;height: 29px;line-height: 27px;border: 1px solid #e4e4e4;margin-left: -6px;background-color: #f7f7f7;color:#666666;
+font-size: 12px;font-family: "微软雅黑";}
+
+/*<!--我的订单-->*/
+.guanzhudianpu{width: 100%;/*height: 840px;*/margin-top:10px;}
+.guanzhudianpu div{float: left;}
+.guanzhudianpu .dianpu_zuo{width: 150px;background-color:#f1f1f1;height:836px ;}
+.dianpu_zuo ul{margin: 0px 0px 25px 10px;}
+.dianpu_zuo ul li{margin: 5px;color:#ababab ;}
+.dianpu_zuo ul li.bold{font-family: "微软雅黑";font-weight: bold;font-size: 15px;color:#555555 ;}
+
+.guanzhudianpu .dianpu_you{width: 87%;height: 100%;float: right;margin: auto auto 50px auto;}
+.dianpu_you .my{width:96.2%;;background-color: white;font-size: 16px;letter-spacing: 3px;font-family: "微软雅黑";
+font-weight: bold;padding: 20px;}
+/*分页  内容*/
+.dianpu_you .demo {background-color:white;width:100%;margin-top: 20px;    padding: 0px 0px 20px 0px;}
+.dianpu_you .page{width:100%;display: none;padding: 20px 0px 0px 0px;}
+.page .one{width: 100%;position: relative;}
+.page .one ul li{float: left;width:18%;height:320px;padding: 10px;}
+.page .one ul li img{width:100%;height: 60% ;}
+.page .one ul li h1,h2,h3{height: 35px;line-height: 35px; text-overflow:ellipsis;white-space:nowrap;overflow:hidden;letter-spacing:1.5px}
+.page .one ul li h1 input{float: left;margin-top: 10px;width:18px;height: 18px ;margin-left: 10px;}
+.page .one ul li h1 span{margin-left: 5px;}
+.page .one ul li h2{text-align: center;}
+.page .one ul li h2 em{color: #C81622;font-size: 20px;}
+.page .one ul li h2 s{color: #999999;}
+.page .one ul li h3{width: 100%;text-align: center;}
+.page .one ul li h3 button{width:75px;height: 25px;line-height: 21px;border: 1px solid #e4e4e4;background-color: #F1F1F1;border-radius:5px ;font-family: "微软雅黑";
+font-size: 12px;margin-left: 10px;}
+
+
+/*分页*/
+.yeshu{position: relative;width:100%;height:70px;overflow: hidden;margin:0 auto;border-top:1px solid #e4e4e4 ;}
+.yeshu .quanxuan{margin:35px 0px 35px 5px;}
+.yeshu .quanxuan input{width: 18px;height: 18px;float: left;margin: 2px 10px 0px 15px;}
+.yeshu .quanxuan span{margin: 20px;}
+.yeshu .quanxuan span a{color:#549dce;}
+
+#pagnation{height: 55px;overflow: hidden;padding:35px 20px 35px 0px;float: right;}
+#pagnation .numlink{width: 30px;height: 30px;color:#666666;border: 1px solid #e4e4e4;font-weight: normal;margin:auto 3px;
+padding: 7px 12px;text-decoration: none;}
+#pagnation a{border: 1px solid #e4e4e4;background-color: white;padding: 7px 12px;margin:auto 3px;color: #666666;}
+#pagnation .current{background-color:#e3393c;border: 1px solid #e4e4e4;cursor: default;padding: 7px 12px;color:white;
+text-decoration: none;}
+
+/*结尾*/
+.yqlj{width: 100%;/*line-height:38px;*/padding: 10px 0px 0px 0px;overflow: hidden;display: inline-block;box-sizing: border-box; border-top: 3px solid #d74d56;}
+.yqlj ul{margin-left: -10px;}
+.yqlj ul li{float: left; height: 28px;}
+.yqlj ul li a{color: #555555;font-size: 15px;margin:15px ;}
+
+/*<!--底部-->	*/
+.db{width: 100%;height: 150px;border-top: 1px solid #e4e4e4;}
+.db ul{text-align: center;margin: 0px auto;}
+.db ul li{float: left;/*height:25px;line-height: 25px ;*/text-align: center ;}
+.box{width:1223px;height:201;margin:10px auto}
+
+.mydingdan_zuo{width: 150px;background-color:#f1f1f1;height:836px ;}
+.mydingdan_zuo ul{margin: 0px 0px 25px 10px;}
+.mydingdan_zuo ul li{margin: 5px;color:#ababab ;}
+.mydingdan_zuo ul li.bold{font-family: "微软雅黑";font-weight: bold;font-size: 15px;color:#555555 ;}
+
+
+
+/*登陆后个人中心*/
+.dbs {
+    width: 100%;
+    height: 200px;
+    border-top: 1px solid #e4e4e4;
+    display: inline-block;
+    box-sizing: border-box;
+    padding-top: 5px;
+}
+.dbs ul li {
+    float: left;
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+}

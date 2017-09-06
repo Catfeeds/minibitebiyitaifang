@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>后台管理</title>
+<link href="__PUBLIC__/ht/css/main.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="__PUBLIC__/ht/js/jquery.js"></script>
+<script type="text/javascript" src="__PUBLIC__/ht/js/action.js"></script>
+</head>
+<body>
+
+<div class="aaa_pts_show_1">【 栏目管理 】</div>
+
+<div class="aaa_pts_show_2">
+    <div class="aaa_pts_3"><span style="color:red">备注：产品分类建议5个字以内，否则在pc端不能显示完整</span>
+      <table class="pro_3">
+         <tr class="tr_1">
+           <td style="width:80px;">栏目ID</td>
+           <td>栏目名称</td>
+           <td style="width:80px;">属性</td>
+           <td style="width:200px;">操作选项</td>
+         </tr>
+         <volist name='list' id='tr1'>
+          <tr data-id="tr_{$tr1.tid}">
+			 <td>{$tr1.id}</td>
+			 <td style="text-align:left; padding-left:15px;">- {$tr1.name}</td>
+			 <td><if condition="$tr1.bz_2 eq 1"><font style="color:#090">推荐</font></if></td>
+			 <td>
+			    <a href="{:U('set_tj')}?tj_id={$tr1.id}">推荐</a>
+			    <if condition="$tr1.bz_4 eq 1">
+			    	| <a href="{:U('add')}?cid={$tr1.id}">修改</a> | 
+					<a onclick="del_id_url({$tr1.id})">删除</a>
+				</if>	
+			 </td>
+		  </tr>
+		  <volist name='tr1["list2"]' id='tr2'>
+		  <tr data-id="tr_{$tr2.tid}">
+			 <td>{$tr2.id}</td>
+			 <td style="text-align:left; padding-left:15px;">&nbsp; &nbsp; &nbsp;- {$tr2.name}</td>
+			 <td><if condition="$tr2.bz_2 eq 1"><font style="color:#090">推荐</font></if></td>
+			 <td>
+			    <a href="{:U('set_tj')}?tj_id={$tr2.id}">推荐</a> | 
+				<a href="{:U('add')}?cid={$tr2.id}">修改</a> | 
+				<a onclick="del_id_url({$tr2.id})">删除</a>
+			 </td>
+		  </tr>
+		  <volist name='tr2["list3"]' id='tr3'>
+		  <tr data-id="tr_{$tr3.tid}">
+			 <td>{$tr3.id}</td>
+			 <td style="text-align:left; padding-left:15px;">&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;- {$tr3.name}</td>
+			 <td><if condition="$tr3.bz_2 eq 1"><font style="color:#090">推荐</font></if></td>
+			 <td>
+			    <a href="{:U('set_tj')}?tj_id={$tr3.id}">推荐</a> | 
+				<a href="{:U('add')}?cid={$tr3.id}">修改</a> | 
+				<a onclick="del_id_url({$tr3.id})">删除</a>
+			 </td>
+		  </tr>
+		 </volist>
+		 </volist>
+         </volist>
+     </table>
+    </div>
+    
+</div>
+<script>
+function del_id_url(id){
+   if(confirm("确认删除吗？"))
+   {
+	  location='{:U("del")}?did='+id;
+   }
+}
+</script>
+</body>
+</html>

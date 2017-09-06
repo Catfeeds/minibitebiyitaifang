@@ -1,0 +1,29 @@
+<view class="shop" wx:for="{{shopList}}"  wx:key="id">
+     <view class="fei">
+        <image src="{{item.logo}}"></image>
+     </view>
+     <view class="gongsi">
+       <view>{{item.name}}</view>
+        <view class="bao" wx:if="{{item.shopmoney}}">
+          <image class='bao_img' src="../../images/bao.png"></image>
+          {{item.shopmoney}}
+        </view>   
+         <view> 联系人：{{item.uname}}</view> 
+         <view> 电话：{{item.tel ? item.tel : ""}}</view>   
+         <view> 地址：{{item.sheng ? item.sheng : ""}} {{item.city ? item.city : ""}}</view>   
+     </view>
+     <view class="jinru" bindtap="stroe" data-id="{{item.id}}">
+      <text>进入店铺</text>  
+     </view>
+<scroll-view scroll-x="true" class="sc" wx:if="{{item.pro_list.length>0}}">
+ <view class="one" wx:for="{{item.pro_list}}" wx:for-item="pro" bindtap='jj' data-pid="{{pro.id}}"> 
+    <image src="{{pro.photo_x}}"></image>
+        <text class="yuan">¥ {{pro.price_yh}}</text>
+ </view> 
+</scroll-view>
+</view>
+<view class="clear mt10" bindtap="getMore" style="display:{{shopList==''?'none':'block'}}">点击查看更多</view>
+
+<view class="lll">
+    <image src="../../images/kf.png"> <contact-button></contact-button>  <contact-button></contact-button></image>
+</view>

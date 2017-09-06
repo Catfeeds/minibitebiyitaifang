@@ -1,0 +1,161 @@
+<view class="cont">
+  <view class="tou" wx:if="{{rztype=='geren'}}">
+    <view bindtap="gotogeren">
+      个人信息
+      <view class="san">
+        <text class="jiao"></text>
+      </view>
+    </view>
+    <view>></view>
+
+    <view bindtap="gotodianpu">店铺信息</view>
+    <view>></view>
+    <view bindtap="gotoshenhe">提交审核</view>
+  </view>
+
+  <view class="tou" wx:if="{{rztype=='qiye'}}">
+    <view bindtap="gotoqiye">企业信息</view>
+    <view>></view>
+    <view bindtap="gotogeren">
+      个人信息
+      <view class="qiyesan">
+        <text class="jiao"></text>
+      </view>
+    </view>
+    <view>></view>
+
+    <view bindtap="gotodianpu">店铺信息</view>
+    <view>></view>
+    <view bindtap="gotoshenhe">提交审核</view>
+  </view>
+
+
+  <view class="shiming">企业认证
+    <text style="font-size:22rpx;">（请上传真实的企业信息，认证通过后将无法修改）</text>
+  </view>
+
+
+  <form bindsubmit="reg">
+    <view class="xing">企业名称
+      <input placeholder-class='placeholder' placeholder='请输入企业名称' class="in" name="qiyename" value="{{qiyename}}"/>
+    </view>
+
+    <view class="xing">法人姓名
+      <input placeholder-class='placeholder' placeholder='请输入法人(代理人)姓名' class="in" name='qiyefrname' value="{{qiyefrname}}"/>
+    </view>
+    <view class="xing">身份证号
+      <input placeholder-class='placeholder' placeholder='请输入身份证号' class="in" name='qiyefr_idc' value="{{qiyefr_idc}}"/>
+    </view>
+    <view class="xing">银行名称
+      <input placeholder-class='placeholder' placeholder='请输入银行(对公账号)名称' class="in" name='bankname' value="{{bankname}}" />
+    </view>
+    <view class="xing">开户行名称
+      <input placeholder-class='placeholder' placeholder='请输入开户行名称' class="in" name='branchbankname' value="{{branchbankname}}" />
+    </view>
+    <view class="xing">银行账号
+      <input placeholder-class='placeholder' placeholder='请输入银行账号' class="in" name='bankid' value="{{bankid}}" />
+    </view>
+    <view class="xing">通讯地址
+      <input placeholder-class='placeholder' placeholder='请输入通讯地址' class="in" name='address' value="{{address}}" />
+    </view>
+
+    <view class="shenfen">
+
+      <view class="shenfen1">营业执照副本照片</view>
+      <text style="font-size:26rpx;color:#d9002f;">*上传营业执照照片</text>
+      <block wx:if="{{qiye_cert}}">
+
+
+        <view class="cl_img">
+          <image src="{{qiye_cert}}" mode="aspectFit" bindtap="qiye_cert"></image>
+
+          <view class="hh">此图片仅供审核用</view>
+
+        </view>
+
+
+      </block>
+
+
+      <block wx:else>
+        <view class="cl_img">
+          <image src="../../images/upload.jpg" bindtap="qiye_cert"></image>
+
+
+        </view>
+      </block>
+
+    </view>
+
+    <view class="shenfen">
+
+      <view class="shenfen1">法人身份证正面照</view>
+      <text style="font-size:26rpx;color:#d9002f;">*请使用手机横向拍摄以保证图片正常显示</text>
+
+
+      <block wx:if="{{qiyefr_idc_face}}">
+        <view class="cl_img">
+          <image src="{{qiyefr_idc_face}}" mode="aspectFit" bindtap="qiyefr_idc_face"></image>
+          <view class="hh">此图片仅供审核用</view>
+
+        </view>
+
+      </block>
+      <block wx:else>
+        <view class="cl_img">
+          <image src="../../images/upload.jpg" bindtap="qiyefr_idc_face"></image>
+        </view>
+      </block>
+
+
+
+
+    </view>
+
+    <view class="shenfen">
+
+      <view class="shenfen1">法人身份证反面照</view>
+      <text style="font-size:26rpx;color:#d9002f;">*请使用手机横向拍摄以保证图片正常显示</text>
+      <block wx:if="{{qiyefr_idc_back}}">
+        <view class="cl_img">
+          <image src="{{qiyefr_idc_back}}" mode="aspectFit" bindtap="qiyefr_idc_back"></image>
+                    <view class="hh">此图片仅供审核用</view>
+
+        </view>
+      </block>
+      <block wx:else>
+        <view class="cl_img">
+          <image src="../../images/upload.jpg" bindtap="qiyefr_idc_back"></image>
+        </view>
+      </block>
+
+
+    </view>
+    <view class="shenfen">
+
+      <view class="shenfen1">食品流通许可证/食品经营许可证 (可选)</view>
+      <text style="font-size:26rpx;color:#d9002f;">*茶酒滋补分类需上传此证件</text>
+      <block wx:if="{{qiye_foodcert}}">
+        <view class="cl_img">
+          <image src="{{qiye_foodcert}}" mode="aspectFit" bindtap="qiye_foodcert"></image>
+                    <view class="hh">此图片仅供审核用</view>
+
+        </view>
+      </block>
+      <block wx:else>
+        <view class="cl_img">
+          <image src="../../images/upload.jpg" bindtap="qiye_foodcert"></image>
+        </view>
+      </block>
+
+
+    </view>
+
+    <view style="padding-top:30rpx;font-size:30rpx;text-align:center;color:#cccccc">————请确认以上信息准确无误————</view>
+
+    <button type="" form-type="submit" hover-class='button-hover' class='su'>保存并下一步</button>
+  </form>
+
+
+
+</view>

@@ -1,0 +1,16 @@
+<image class="tit" src="{{guanggao}}"></image>
+<view class="containe">
+  <view class="geren" bindtap="geren">
+        <image src="../../images/gr.png"></image>
+        <view class="gshi">个人实名认证</view>
+        <view class="classname">申请</view>
+  </view>
+
+  <view class="qiye" bindtap="qiye">
+      
+        <image src="../../images/qi.png"></image>
+        <view class="gshi">企业实名认证</view>
+        <view class="classname">申请</view>
+  </view>
+</view>
+<button type="" hover-class='button-hover' class='su' bindtap="content">查看实名认证协议</button>

@@ -1,0 +1,82 @@
+@charset "utf-8";
+/*<!--头部-->*/
+span.shu{color:#b8b8b8;}
+.navContent li{background:#f9f9f9;}
+.navContent li a:hover{background-color:white;}
+/*<!-- logo 图-->*/
+.header .sousuo{width:60%;height: 100%}
+/*<!--购物车--> */ 
+.header .gwc{width: 22.8%;height: 100%;}
+.header .gwc .gwc_gw{margin-left: 35%;}
+.header .gwc .yc{z-index: 1999;} 
+/*六级下拉菜单*/
+.biaoti .bt_btl{height:38px;}
+.biaoti .bt_btl a:hover{background-color:#ff2020;}
+
+#nav {background:#fff; position:relative; }
+
+/*<!--产品  分类-->*/
+.shuiguo{width: 100%;height: 40px;line-height: 40px;}
+.chanpinliebiao{width:100%;min-height:1730px;background-color:white;margin: 0 auto;margin-top: 10px;padding-bottom:50px}
+.chanpinliebiao>div{display: block;float: left;}
+.chanpinliebiao .chanpin_zuo{width: 18%;height: 1303px;background-color:white;border: 1px solid #e4e4e4;position: relative;overflow: hidden;}
+.chanpinliebiao .chanpin_zuo .chanpin_zi{width: 100%;height: 45px;line-height: 45px;background-color: #f7f7f7;border-bottom: 1px solid #e4e4e4;font-size: 16px;color: #c81622;}
+.chanpinliebiao .chanpin_zuo .chanpin_zi img{margin-top: 13px;float: left;margin-left: 20px;}
+.dibu_zi em{margin-left: 3px;font-weight: 500;}
+/*上下焦点图*/
+.chanpin_btn1 span { display:block;cursor:pointer;}
+.chanpin_btn1 .prev1 {position: absolute; float: left;background-image: url(../images/shang.png);bottom:10px;height: 20px;width:40px ;left: 45px;}
+.chanpin_btn1 .next1 {position: absolute; float: right ;background-image: url(../images/xia.png);bottom:10px;height: 20px;width:35px ;right: 66px;}
+.chanpin_zuo #menu_con{ height:94% ;overflow: hidden;position: relative;}
+.chanpin_zuo #menu_con .tag{width: 96%; height:100%;margin: 0 auto;overflow: hidden;position: relative;}
+.chanpin_zuo #menu_con .tag .con_list{height: 100%;overflow: hidden;}
+.chanpin_zuo #menu_con li img{width: 100%;height:230px;margin: 0 auto;}
+.chanpin_zuo #menu_con ul li{min-height:232px;width:150px;margin: 10px auto;border-bottom: 1px dashed #e4e4e4;}
+.chanpin_zuo #menu_con ul li p{margin-bottom: 10px;}
+.chanpin_zuo #menu_con ul li p span {display: inline-block; height: 22px;}
+.chanpin_zuo #menu_con ul li img{width: 150px;height:150px;margin: auto 0px;}
+.chanpin_zuo #menu_con ul li h1{width:100% ;line-height:1.2;}
+.chanpin_zuo #menu_con ul li h1 em{line-height:2;color:#cd1424;}
+/*右边*/
+.chanpinliebiao .chanpin_you{width: 80%;height: 100%;float: right;}
+.chanpin_you .paixu{width: 100%;height: 44px;line-height: 45px;background-color: #F7F7F7;border: 1px solid #e4e4e4;font-size: 16px;color: #666;}
+.chanpin_you .paixu>div{;float: left;}
+.chanpin_you .paixu ul{display: block;float: left;width: 300px;height: 44px;margin-top:7px ;}
+.chanpin_you .paixu ul li{display: block;float: left;font-size: 12px;width: 55px;height: 24px;line-height: 24px;text-align: center;border: 1px solid #e4e4e4;
+margin: 3px;background-color: white;}
+.chanpin_you .paixu ul li a{color: #555555;display: block;    width: 55px;height: 24px;}
+.chanpin_you .paixu ul li.none{display:block;float:left;border: none;background-color: #F7F7F7;font-size: 14px;}
+.chanpin_you .paixu ul li em{background-image: url(../images/jt_topa.jpg);padding: 0 7px;}
+.chanpin_you .paixu ul li.curr1{background-color: #cd1424;}
+.chanpin_you .paixu ul li.curr1 a{color:white ;}
+.chanpin_you .paixu ul li.curr1 em{background-image: url(../images/jt_top.jpg);padding: 0 7px;margin-left: 2px;}
+.chanpin_you .paixu .paixu_sousuo{display: block;width:20%;height: 100%;float: right;line-height: 42px;}
+.paixu_sousuo input{width:75%;height: 28px;line-height: 28px;border: 1px solid #e4e4e4;text-indent:0.5em;}
+.paixu_sousuo button{width:40px;height: 29px;line-height: 27px;border: 1px solid #e4e4e4;margin-left: -6px;background-color: white;color:#666666;
+font-size: 12px;font-family: "微软雅黑";}
+/*分页插件*/
+.demo {background-color:white;width:100%;height: 97%;}
+.demo .page{width: 100%;height:96%;overflow: hidden;background-color:white;}
+.demo .page ul{width: 100%;height:100%;background-color: white;}
+.demo .page ul li{float: left;width:23.4%;min-height:252px;border: 1px solid #e4e4e4;margin:6.3px;}
+.demo .page ul li p{margin-bottom: 10px;}
+.demo .page ul li p span {display: inline-block; height: 22px;}
+/*.demo .page{width:100%; height:96%;overflow: hidden;}*/
+/*.page ol{width: 96%;height: 100%;margin:auto}
+.page ol li{height:25px;line-height:25px;padding: 6px;font-size: 15px;}
+.page ol li em{float: right;color: #A5A5A5;}*/
+.yeshu{position: relative;height: 55px;overflow: hidden;float: right;}
+#pagnation{height: 55px;line-height:55px;overflow: hidden;margin:5px auto;/*text-overflow:ellipsis;white-space:nowrap;overflow:hidden;*/}
+#pagnation .numlink{width: 30px;height: 30px;color:#666666;border: 1px solid #e4e4e4;font-weight: normal;margin:auto 3px;padding: 7px 12px;text-decoration: none;}
+#prev,#next{border: 1px solid #e4e4e4;background-color: white;padding: 7px 12px;margin:auto 3px;color: #666666;}
+#pagnation a.current{background-color:#ff2020 ;border: 1px solid #e4e4e4;cursor: default;padding: 7px 12px;color:white;text-decoration: none;}
+#paginationdemo .yeshu #pagnation a{width: 30px;height: 30px;color:#666666;border: 1px solid #e4e4e4;font-weight: normal;margin:auto 3px;padding: 7px 12px;text-decoration: none;}
+#paginationdemo .yeshu #pagnation .current{background-color:#ff2020 ;border: 1px solid #e4e4e4;cursor: default;padding: 7px 12px;color:white;text-decoration: none;}
+.page  ul li img{width: 160px;height:160px;margin:10px 30px;}
+.page  ul li h1{width:75% ;margin: 0 auto;line-height:1.2;letter-spacing: 0.5px;}
+.page  ul li h1 em{line-height:2;color:#cd1424;}
+.page  ul li h1 s{font-size: 12px;color: #999999;margin-left: 10px;}
+
+/*<!--底部-->	*/
+.db{height: 150px;}
+.db ul{margin: 0 auto;}

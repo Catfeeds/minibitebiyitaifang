@@ -1,0 +1,1694 @@
+[ 2017-09-01T10:05:17+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/Index/index
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:05:17+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/Login/getsessionkey
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:05:17+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/Login/authlogin
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:05:24+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/Voucher/index
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:05:34+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/News/lists
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:05:40+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/Product/lists
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:05:49+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/User/getorder
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:05:49+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/Renzheng/checkrz
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:05:49+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/User/getorder
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:05:50+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/User/getShopOrderNum
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:05:51+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/User/userinfo
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:06:08+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/User/getorder
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:06:08+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/Renzheng/checkrz
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:06:08+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/User/getShopOrderNum
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:06:09+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/Shangchang/index
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:06:13+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/Product/lists
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:06:17+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/News/lists
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:06:23+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/News/lists
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:06:33+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/News/lists
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:06:42+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/Product/lists
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:06:47+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/Product/lists
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:06:52+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/Product/lists
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:06:57+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/Product/lists
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:07:02+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/News/lists
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:07:13+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/Product/lists
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:07:23+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/User/getorder
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:07:23+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/Renzheng/checkrz
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:07:24+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/User/getShopOrderNum
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:07:25+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/User/userinfo
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:15:40+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/User/getorder
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:15:40+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/Renzheng/checkrz
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000115s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:15:40+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/User/getShopOrderNum
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:15:41+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/User/userinfo
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:17:07+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/User/getorder
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000098s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:17:08+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/Renzheng/checkrz
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:17:08+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/User/getShopOrderNum
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:17:09+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/User/userinfo
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:18:52+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/User/getorder
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:18:52+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/Renzheng/checkrz
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:18:52+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/User/getShopOrderNum
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:18:58+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/User/userinfo
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:19:30+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/User/getorder
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:19:30+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/Renzheng/checkrz
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:19:30+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/User/userinfo
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:19:30+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/User/getShopOrderNum
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:22:20+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/User/getorder
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:22:20+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/Renzheng/checkrz
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:22:20+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/User/getShopOrderNum
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:22:20+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/User/userinfo
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:22:30+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/User/getorder
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:22:31+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/Renzheng/checkrz
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:22:31+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/User/getShopOrderNum
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:22:34+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/User/userinfo
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:22:45+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/User/getorder
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:22:45+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/Renzheng/checkrz
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:22:46+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/User/getShopOrderNum
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:22:47+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/User/userinfo
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000162s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:23:20+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/User/getorder
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:23:20+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/Renzheng/checkrz
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:23:20+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/User/getShopOrderNum
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:23:22+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/Product/panic
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:23:31+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/User/getorder
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:23:31+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/Renzheng/checkrz
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:23:31+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/User/getShopOrderNum
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:23:37+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/Category/index
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:23:45+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/User/getorder
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:23:45+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/Renzheng/checkrz
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:23:45+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/User/getShopOrderNum
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:23:47+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/User/userinfo
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:23:49+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/User/getorder
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:23:49+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/Renzheng/checkrz
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:23:50+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/User/getShopOrderNum
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:23:51+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/Applyshop/applysubmitinfo
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:23:53+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/Renzheng/readinfo
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:24:05+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/User/getorder
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:24:05+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/Renzheng/checkrz
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:24:05+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/User/getShopOrderNum
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:24:10+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/Applyshop/applysubmitinfo
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:24:15+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/Renzheng/readinfo
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:24:22+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/User/getorder
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:24:22+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/Renzheng/checkrz
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:24:22+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/User/getShopOrderNum
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:24:44+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/User/userinfo
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:24:50+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/User/getorder
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:24:50+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/Renzheng/checkrz
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:24:51+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/User/getShopOrderNum
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:25:22+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/User/userinfo
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:26:51+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/User/getorder
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:26:51+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/Renzheng/checkrz
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:26:51+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/User/getShopOrderNum
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:27:14+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/News/lists
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:27:16+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/News/lists
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:27:21+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/News/lists
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:27:26+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/Product/lists
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:27:32+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/News/lists
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:27:59+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/Product/lists
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:28:06+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/Product/lists
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:28:14+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/News/lists
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:28:18+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/Product/lists
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000115s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:28:19+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/Product/lists
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:28:28+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/News/lists
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:28:31+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/News/lists
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:29:02+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/User/getorder
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:29:02+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/Renzheng/checkrz
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:29:02+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/User/getShopOrderNum
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:29:03+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/Applyshop/applysubmitinfo
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:29:05+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/Renzheng/readinfo
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:31:14+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/User/getorder
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:31:15+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/Renzheng/checkrz
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:31:15+08:00 ] 112.96.164.228 /minibitebiyitaifang/index.php/Api/User/getShopOrderNum
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:40:14+08:00 ] 116.22.35.144 /minibitebiyitaifang/index.php/Api/Index/index
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:40:15+08:00 ] 116.22.35.144 /minibitebiyitaifang/index.php/Api/Login/getsessionkey
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:40:15+08:00 ] 116.22.35.144 /minibitebiyitaifang/index.php/Api/Login/authlogin
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:41:03+08:00 ] 116.22.35.144 /minibitebiyitaifang/index.php/Api/User/getorder
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:41:03+08:00 ] 116.22.35.144 /minibitebiyitaifang/index.php/Api/Renzheng/checkrz
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:41:03+08:00 ] 116.22.35.144 /minibitebiyitaifang/index.php/Api/User/getorder
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:41:04+08:00 ] 116.22.35.144 /minibitebiyitaifang/index.php/Api/User/getShopOrderNum
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:41:08+08:00 ] 116.22.35.144 /minibitebiyitaifang/index.php/Api/User/userinfo
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:43:25+08:00 ] 116.22.35.144 /minibitebiyitaifang/index.php/Api/User/getorder
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:43:25+08:00 ] 116.22.35.144 /minibitebiyitaifang/index.php/Api/Renzheng/checkrz
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+
+[ 2017-09-01T10:43:25+08:00 ] 116.22.35.144 /minibitebiyitaifang/index.php/Api/User/getShopOrderNum
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' /www/web/default/public_html/minibitebiyitaifang/App/Common/Conf/debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Undefined variable: sckey /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 33 行.
+NOTIC: [8] Use of undefined constant LOAD_EXT_CONFIG - assumed 'LOAD_EXT_CONFIG' /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 40 行.
+NOTIC: [8] Undefined variable: notify_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 55 行.
+NOTIC: [8] Undefined variable: return_url /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 58 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 62 行.
+NOTIC: [8] Undefined index: key /www/web/default/public_html/minibitebiyitaifang/App/Api/Conf/config.php 第 66 行.
+

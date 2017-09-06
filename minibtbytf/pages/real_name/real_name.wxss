@@ -1,0 +1,60 @@
+page {
+  background: #fff;
+  height: 100%;
+
+}
+/*广告*/
+.tit {
+  height: 300rpx;
+  width: 100%;
+}
+.containe {
+  height: 55%;
+  display: flex;
+  /*align-items: center;*/
+  justify-content: center;
+}
+.su {
+  width: 84%;
+  color: #fff;
+  height: 69rpx;
+  line-height: 69rpx;
+  font-size: 30rpx;
+  font-family: "微软雅黑", "黑体";
+  background: #1296db;
+}
+.geren {
+  flex: 1;
+  text-align: center;
+   padding-top: 200rpx;
+}
+
+.geren image {
+  width: 50%;
+  margin: 0 auto;
+  height: 178rpx;
+}
+
+.qiye {
+  flex: 1;
+  text-align: center;
+  margin: 0 auto; padding-top: 200rpx;
+}
+
+.qiye image {
+  width: 50%;
+  margin: 0 auto;
+  height: 178rpx;
+}
+.gshi{
+  padding: 20rpx 0;
+}
+.classname {
+  background: #1296db;
+  color: #fff;
+  width: 20%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 10rpx 20rpx;
+  border-radius:10rpx 
+}

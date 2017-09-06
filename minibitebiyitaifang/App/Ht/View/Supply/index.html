@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>后台管理</title>
+<link href="__PUBLIC__/ht/css/main.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="__PUBLIC__/ht/js/jquery.js"></script>
+<script type="text/javascript" src="__PUBLIC__/ht/js/action.js"></script>
+</head>
+<body>
+<div class="aaa_pts_show_1">【 供求管理 】</div>
+<div class="aaa_pts_show_2">
+    <div>
+       <div class="aaa_pts_4"><a href="{:U('index')}">全部供求</a></div>
+    </div>
+    <div class="aaa_pts_3">
+      <table class="pro_3">
+         <tr class="tr_1">
+           <td style="width:80px;">ID</td>
+           <td>供求内容</td>
+           <td style="width:100px;">所属类别</td>
+           <td style="width:130px;">发布时间</td>
+           <td style="width:130px;">发布地点</td>
+           <td style="width:100px;">状态</td>
+           <td style="width:180px;">操作</td>
+         </tr>
+          <volist name='list' id='vo'>
+          <tr>
+            <td>{$vo.id}</td>
+            <td>{$vo.content}</td>
+            <td><if condition="$vo.type eq 1">供应<else />求购</if></td>
+            <td>{$vo.addtime}</td>
+            <td>{$vo.area}</td>
+            <td><if condition="$vo.state eq 1">已接单<elseif condition="$vo.state eq 2" />已取消<else />供求中</if></td>
+            <td>
+              <!-- <a href="{:U('review')}?news_id={$vo.id}">查看评论</a> |  -->
+              <a onclick="del_id_url2({$vo.id})">删除</td>
+          </tr>
+          </volist>  
+         <tr>
+            <td colspan="10" class="td_2">
+                {$page}
+             </td>
+         </tr>
+      </table>      
+    </div>
+    
+</div>
+<script>
+function product_option(){
+      $('form').submit();
+}
+
+function del_id_url2(id){
+   if(confirm("确认删除吗？"))
+   {
+	  location='{:U("del")}?did='+id;
+   }
+}
+</script>
+</body>
+</html>

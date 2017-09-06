@@ -1,0 +1,108 @@
+<view class="cont ">
+  <view class="tou" wx:if="{{rztype=='geren'}}">
+    <view bindtap="gotogeren">
+      个人信息
+      <view class="san">
+        <text class="jiao"></text>
+      </view>
+    </view>
+    <view>></view>
+
+    <view bindtap="gotodianpu">店铺信息</view>
+    <view>></view>
+    <view bindtap="gotoshenhe">提交审核</view>
+  </view>
+
+  <view class="tou" wx:if="{{rztype=='qiye'}}">
+    <view bindtap="gotoqiye">企业信息</view>
+    <view>></view>
+    <view bindtap="gotogeren">
+      个人信息
+      <view class="qiyesan">
+        <text class="jiao"></text>
+      </view>
+    </view>
+    <view>></view>
+
+    <view bindtap="gotodianpu">店铺信息</view>
+    <view>></view>
+    <view bindtap="gotoshenhe">提交审核</view>
+  </view>
+<!--详情-->
+<!--pages/order/detail.wxml-->
+<view class="w100">
+
+		<view class="p_all bg_white mt10 c6 l_h20  font_14" wx:if="{{rztype=='geren'}}">
+    	<view >
+			    认证类型<text class="red">{{rztypename}}</text>
+			</view>
+      <view  class="xian"></view>
+			<view class="l">
+			    姓名：<text class="red">{{linkman}}</text>
+			</view>
+			<view class="l">
+			    联系电话：<text class="red">{{tel}}</text>
+			</view>
+			<view class="mt10 l">
+		      身份证号：<text class="red">{{idc_id}}</text>
+			</view>   
+	    <view class="mt10 l">
+	      	店铺名称：<text class="red">{{shopname}}</text>
+			</view> 
+		</view>
+
+    <view class="p_all bg_white mt10 c6 l_h20  font_14" wx:if="{{rztype=='qiye'}}">
+    	<view >
+			    认证类型<text class="red">{{rztypename}}</text>
+			</view>
+      <view  class="xian"></view>
+      <view class="l">
+			    企业名称：<text class="red">{{qiyename}}</text>
+			</view>
+      <view class="l">
+			    法人名称：<text class="red">{{qiyefrname}}</text>
+			</view>
+			<view class="l">
+			    联系人姓名：<text class="red">{{linkman}}</text>
+			</view>
+			<view class="l">
+			    联系电话：<text class="red">{{tel}}</text>
+			</view>
+			<view class="mt10 l">
+		      身份证号：<text class="red">{{idc_id}}</text>
+			</view>   
+	    <view class="mt10 l">
+	      	店铺名称：<text class="red">{{shopname?shopname:''}}</text>
+			</view> 
+		</view>
+
+  <view class="fan" bindtap="fan">
+    返回修改信息»
+  </view>
+
+   <button style="margin-top:50rpx;" bindtap="checkfree">支付认证费用并审核提交</button>
+       
+        
+
+</view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </view>

@@ -1,0 +1,83 @@
+<view class="cont ">
+<!--头部-->
+  <view class="tou" wx:if="{{rztype=='geren'}}">
+    <view bindtap="gotogeren">
+      个人信息
+      <view class="san">
+        <text class="jiao"></text>
+      </view>
+    </view>
+    <view>></view>
+
+    <view bindtap="gotodianpu">店铺信息</view>
+    <view>></view>
+    <view bindtap="gotoshenhe">提交审核</view>
+  </view>
+
+  <view class="tou" wx:if="{{rztype=='qiye'}}">
+    <view bindtap="gotoqiye">企业信息</view>
+    <view>></view>
+    <view bindtap="gotogeren">
+      个人信息
+      <view class="qiyesan">
+        <text class="jiao"></text>
+      </view>
+    </view>
+    <view>></view>
+
+    <view bindtap="gotodianpu">店铺信息</view>
+    <view>></view>
+    <view bindtap="gotoshenhe">提交审核</view>
+  </view>
+<!--end-->
+  <view class="log">
+    <view class="log_s">店铺Logo</view>
+    <view class="log_o"> </view>
+    <view class="log_g">
+      <block wx:if="{{logo}}">
+        <view class="cl_img">
+          <image src="{{logo}}" mode="aspectFit"  bindtap="logo"></image>
+        </view>
+      </block>
+      <block wx:else>
+        <view class="cl_img">
+          <image src="../../images/jia.png" bindtap="logo"></image>
+        </view>
+      </block>
+      <view style="margin-left:40rpx;color:#ccc">></view>
+    </view>
+  </view>
+<view class="tishi">
+<text style="margin-right:20rpx">推荐Logo尺寸512*512</text>  
+</view>
+<form bindsubmit="saveshop">
+<!--店铺名字-->
+<view class="shopstore">
+    <view class="shopstore_log">
+    <text style="padding-left:30rpx">店铺名字</text>
+      <input placeholder-class='placeholder' placeholder-style='font-size:26rpx;' placeholder='为您的店铺起一个名字' class="in" name="shopname" value="{{shopname}}"/>
+    </view>
+</view>
+
+<view class="tishi">
+<text style="margin-right:20rpx">店铺名字不能重名，不能使用他人的注册商标</text>  
+</view>
+
+
+    <view class="section">
+
+  <view class="jieshang" >店铺介绍</view>
+  <view  class="xian"></view>
+
+            <textarea placeholder-style='font-size:28rpx;' style="font-size:30rpx" maxlength='150' placeholder="请介绍你的店铺(150字以内)" name="digest" value="{{digest}}"/>
+           
+           
+           
+           
+
+        </view>
+
+ <button style="margin-top:50rpx;" form-type="submit" hover-class='button-hover' class='su'>保存并下一步</button>
+
+   </form>
+</view>

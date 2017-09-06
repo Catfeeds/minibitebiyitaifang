@@ -1,0 +1,173 @@
+/*供求*/
+page{
+  background: #fff;
+}
+.tab {
+  flex-direction: row;
+  width: 100%;
+}
+
+.tab-left {
+  width: 100%;
+  line-height: 160%;
+  font-size: 34rpx;
+  border-right: solid 1px gray;
+  font-weight: 700;
+}
+
+.tab-left view {
+  text-align: center;
+  display: inline-block;
+  width: 25%;
+  /*border-right:1px solid #999; */
+}
+
+.tab-left .active {
+  color: #f00;
+  border-bottom: solid 1px red;
+}
+
+.tab-right {
+  line-height: 160%;
+}
+
+.tab-right .right-item {
+  padding-left: 15rpx;
+  display: none;
+}
+
+.tab-right .right-item.active {
+  display: block;
+}
+
+.boxx {
+  width: 100%;
+  padding-bottom: 97rpx;
+  border-top: 1px solid #f5f5f5;
+  padding-left: 0rpx;
+}
+
+.riqi {
+  font-size: 30rpx;
+  display: inline-block;
+  color: #999;
+  /*margin-left: 145rpx;*//*width:37%;*/
+  position: relative;
+  top: 11rpx;
+  margin-left: 50rpx;
+}
+
+.ri {
+  font-size: 30rpx;
+  display: inline-block;
+  color: #999;
+  /*margin-left: 145rpx;*//*width:37%;*/
+  position: relative;
+  top: 11rpx;
+  margin-left: 120rpx;
+}
+
+.png {
+  width: 20%;
+  display: inline-block;
+  float: left;
+  line-height: 35rpx;
+}
+
+.png image {
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 50%;
+  margin-left: 46rpx;
+}
+
+.qiang {
+  width: 50%;
+  display: inline-block;
+  text-align: right;
+}
+
+.dan {
+  font-size: 30rpx;
+  padding: 10rpx 20rpx;
+  border: 1px solid #ff4040;
+  border-radius: 10rpx;
+  background: #ff4040;
+  color: white;
+}
+
+.fon {
+  display: inline-block;
+  width: 88%;
+  font-size: 30rpx;
+  line-height: 50rpx;
+  height: 60rpx;
+  margin-left: 50rpx;
+  margin-top: 20rpx;
+}
+
+.one1 {
+  margin-top: 20rpx;
+  text-align: center;
+}
+
+.one1 text {
+  padding: 20rpx;
+  border: 1px solid #666;
+  font-size: 32rpx;
+  font-weight: 700;
+  border-radius: 10rpx;
+  box-shadow: 2px 2px 2px #888;
+}
+
+.jie {
+  font-size: 32rpx;
+  color: red;
+  margin-left: 24rpx;
+  width: 266rpx;
+}
+
+.zhuan {
+  display: inline-block;
+  position: relative;
+  left: 100rpx;
+  height: 40rpx;
+  font-size: 32rpx;
+  color: red;
+  margin-left: 65rpx;
+}
+
+.ll {
+  float: right;
+  display: flex;
+  margin-top: 20rpx;
+}
+
+button[type="default"] {
+  color: #000;
+  background-color: #f8f8f8;
+}
+
+.kk {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 14px;
+  padding-right: 14px;
+  box-sizing: border-box;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+  line-height: 2.55555556;
+  border-radius: 5px;
+  -webkit-tap-highlight-color: transparent;
+  overflow: hidden;
+  color: #000;
+  background-color: #f8f8f8;
+  margin: 0 25rpx;
+  float: left;
+}
+.list{
+  margin-top:25rpx;
+  border-bottom: 2rpx solid #ccc;
+}

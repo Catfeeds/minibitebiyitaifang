@@ -1,0 +1,179 @@
+<!--index.wxml-->
+<view class="page">
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item.photo}}" class="slide-image" width="100%" height="180" bindtap="bannergo" data-type="{{item.type}}" data-action="{{item.action}}" />
+      </swiper-item>
+    </block>
+  </swiper>
+
+  <view class="er">
+    <!--定位-->
+    <view class="dingwei">
+      <view class="sb" bindtap="getLocation">
+        <image mode="aspectFit" src="http://omh7cqphx.bkt.clouddn.com/NAVIGATION_32px.png" class="im"></image> {{address}}
+      </view>
+    </view>
+    <!--搜索-->
+    <view class="sousuo" bindtap="suo">
+      <view class="weui-search-bar">
+        <view class="weui-search-bar__form">
+          <view class="weui-search-bar__box">
+            <icon class="weui-icon-search_in-box" type="search" size="14"></icon>
+            <!--<input type="text" class="weui-search-bar__input" placeholder="请输入搜索内容" disabled="true"/>-->
+            <text class="weui-search-bar__input">点击进行搜索内容</text>
+            <view class="weui-icon-clear" wx:if="{{inputVal.length > 0}}">
+              <icon type="clear" size="14"></icon>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+
+
+  </view>
+  <!--分类-->
+  <view class="df nav">
+    <view class="df_1" bindtap="qiang">
+      <image src="/images/jp.png"></image>
+      限时抢购
+    </view>
+    <view class="df_1" bindtap="newpro">
+      <image src="/images/new.png"></image>新品推荐
+    </view>
+    <view class="df_1" bindtap="li">
+      <image src="/images/shop.png"></image>新人礼劵
+    </view>
+    <view class="df_1" bindtap="category">
+      <image src="/images/xs.png"></image>全部商品
+    </view>
+  </view>
+
+  <view class="df nav">
+    <view wx:for="{{newslist}}" class="df_1" data-id="{{item.id}}" data-text="{{item.name}}" bindtap="news">
+      <image src="{{item.bz_3}}"></image>
+      <text>{{item.name}}</text>
+    </view>
+  </view>
+  <!--推荐内容开始-->
+  <!-- <view class="name" bindtap="gotobrand"> -->
+  <view class="name">
+    <i>华军合创</i>
+    <i class="brandclick"></i>
+  </view>
+  <!--横滑动-->
+  <scroll-view scroll-x="true" class="sc">
+    <view class="one" wx:for="{{brand}}" data-text="{{item.name}}" data-id="{{item.id}}" bindtap='news'>
+      <image src="{{item.bz_3}}"></image>
+    </view>
+  </scroll-view>
+
+  <view class="cont">
+    <navigator url="../product/detail?productId={{item.id}}" hover-class="changestyle" wx:for="{{productData}}">
+      <image class="cont_image" src="{{item.photo_x}}"></image>
+      <view class="title" style="overflow:hidden;">{{item.name}} </view>
+      <!--<view class="tit">{{item.intro}} </view>-->
+      <view class="gmxx">
+        <span class="jiage" style="float:left">¥：{{item.price_yh}}</span>
+        <span class="xiaoliang" style="float:right">销量：{{item.shiyong}}</span>
+      </view>
+    </navigator>
+  </view>
+  <!-- <view class="clear mt10" bindtap="getMore" style="display:{{productData==''?'none':'block'}}">点击查看更多</view> -->
+
+</view>
+<!--供求-->
+<view class="name">
+  <i style='color:#CD2626'>▎</i><i>信息发布</i>
+</view>
+<view class="tab">
+  <!--头部-->
+  <view class="tab-left" bindtap="tabFun">
+    <view class="{{tabArr.curHdIndex=='0'? 'active' : ''}}" id="tab-hd01" data-id="0">供应信息区</view><text style="color:#ccc">|</text>
+    <view class="{{tabArr.curHdIndex=='1'? 'active' : ''}}" id="tab-hd02" data-id="1">客户需求区</view>
+  </view>
+
+  <view class="tab-right">
+
+    <view class="right-item {{tabArr.curBdIndex=='0'? 'active' : ''}}">
+      <view class="boxx" wx:for="{{gong}}">
+        <view class="png">
+          <image src="{{item.photo}}"></image>
+          <!--<text>wenzifaf二维</text>-->
+        </view>
+        <view class="fss">
+          {{item.content}}
+        </view>
+        <view class="shiqu">
+          <view class="riqi">[{{item.area}}]发布日期：{{item.addtime}}</view>
+          <view class="bianqian">类别：<text>{{item.catname}}</text></view>
+        </view>
+        <view class="qiang">
+          <span class="dan" bindtap="weixin" data-id="{{item.id}}" data-weixin="{{item.weixin}}">微信</span>
+          <span class="dan" bindtap="lian" data-id="{{item.id}}" data-phone="{{item.phone}}">电话</span>
+        </view>
+      </view>
+      <view class="pages" bindtap="lastpage" data-ptype="1" wx:if="{{gong!=''}}">上一页</view>
+      <view class="pages" bindtap="nextpage" data-ptype="1" wx:if="{{gong!=''}}">下一页</view>
+      <view class="one1" bindtap="setModalStatus" data-status="1" data-dtype="1"><text>我要发布</text></view>
+    </view>
+
+
+    <view class="right-item {{tabArr.curBdIndex=='1'? 'active' : ''}}">
+      <view class="boxx" wx:for="{{qiu}}">
+        <view class="png">
+          <image src="{{item.photo}}"></image>
+        </view>
+        <view class="fss">
+          {{item.content}}
+        </view>
+
+
+        <view class="shiqu">
+          <view class="riqi">[{{item.area}}]发布日期：{{item.addtime}}</view>
+          <view class="bianqian">类别：<text>{{item.catname}}</text></view>
+        </view>
+
+
+        
+        <view class="qiang">
+          <span class="dan" bindtap="lian" data-id="{{item.id}}" data-phone="{{item.phone}}">对话</span>
+          <span class="dan" bindtap="jie" data-id="{{item.id}}">接单</span>
+        </view>
+      </view>
+      <view class="pages" bindtap="lastpage" data-ptype="2" wx:if="{{qiu!=''}}">上一页</view>
+      <view class="pages" bindtap="nextpage" data-ptype="2" wx:if="{{qiu!=''}}">下一页</view>
+      <view class="one1" bindtap="setModalStatus" data-status="1" data-dtype="2"><text>我要发布</text></view>
+    </view>
+  </view>
+</view>
+<!--弹窗-->
+<view class="drawer_screen" bindtap="setModalStatus" data-status="0" wx:if="{{showModalStatus}}"></view>
+
+<view animation="{{animationData}}" class="drawer_attr_box" wx:if="{{showModalStatus}}">
+
+  <view class="close_icon" bindtap="setModalStatus" data-status="0">×</view>
+  <view class="drawer_attr_content">
+    <view class="text_center">
+      <picker bindchange="bindcat" range="{{catlist}}">
+        <view class="picker xing">
+          选择分类>> <text class="xuan">{{catlist[catindex]}}</text>
+        </view>
+      </picker>
+      <view class="section">
+        <form bindsubmit="bindFormSubmit">
+          <textarea placeholder-style='font-size:28rpx;' maxlength='100' placeholder="请输入你需要的内容(限200字)" name="content" />
+          <button form-type="submit">发布{{dtype==1?"供应":"需求"}}</button>
+        </form>
+      </view>
+
+    </view>
+  </view>
+</view>
+<!-- <view class="lll">
+  <image src="../../images/kf.png">
+    <contact-button></contact-button>
+    <contact-button></contact-button>
+  </image>
+</view> -->

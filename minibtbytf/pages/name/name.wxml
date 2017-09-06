@@ -1,0 +1,27 @@
+<view class="cont">
+   <view class="shiming" wx:if="{{rztype=='geren'}}">个人实名认证</view>
+   <view class="shiming" wx:if="{{rztype=='qiye'}}">企业实名认证</view>
+    
+    
+    <view class="geren" wx:if="{{rztype=='geren'}}">
+       <image class="src" src="../../images/123.png"></image>
+        <view class="wenzi">
+           <view class="yi">填写联系人真实姓名，联系电话，身份证号并上传身份证正面、反面和手持身份证的清晰照</view>
+             <view class="yi">设置店铺名称，店铺logo,及店铺介绍</view>
+               <view class="yi">提交实名认证申请，工作人员将在3个工作日内与你联系核对信息，请保持电话畅通或及时查看邮箱</view>
+        </view>
+    </view>
+
+    <view class="geren" wx:if="{{rztype=='qiye'}}">
+       <image class="src2" src="../../images/1234.png"></image>
+        <view class="wenzi">
+           <view class="yi">填写企业名称、法人姓名并上传企业营业执照清晰照片及法人身份证正面和反面清晰照。</view>
+           <view class="yi">填写联系人真实姓名，联系电话，身份证号并上传身份证正面、反面和手持身份证的清晰照</view>
+           <view class="yi">设置店铺名称，店铺logo,及店铺介绍</view>
+           <view class="yi">提交实名认证申请，工作人员将在3个工作日内与你联系核对信息，请保持电话畅通或及时查看邮箱</view>
+        </view>
+    </view>
+    
+    <view class="renzheng" bindtap="renzheng">我要认证</view>
+   <view class="yue">默认您已同意了<text style="color:blue">《实名认证协议》</text></view>
+</view>

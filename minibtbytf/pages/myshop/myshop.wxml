@@ -1,0 +1,110 @@
+<view class="container" style="background:#f0f0f2">
+
+
+  <view class="classname">
+    <view class="jj">
+      上传产品
+    </view>
+    <view class="addbrand" bindtap="addbrand">
+      添加品牌
+    </view>
+    <form bindsubmit="addpro">
+      <view class="xing">我的店铺：{{shopname}}
+      </view>
+      <view class="xing">产品名称：
+        <input type="text" class="in" name="name" value="{{pro.name}}" />
+      </view>
+
+      <view class="xing">广告语 :
+        <input type="text" class="in" name='intro' value="{{pro.intro}}" />
+      </view>
+      <picker bindchange="bindcat" range="{{catlist}}">
+        <view class="picker xing">
+          选择分类>> <text class="xuan">{{catlist[catindex]?catlist[catindex]:pro.category}}</text>
+        </view>
+      </picker>
+
+      <picker bindchange="bindbrand" range="{{brandlist}}">
+        <view class="picker xing">
+          选择品牌>> <text>{{brandlist[brandindex]?brandlist[brandindex]:pro.brand}}</text>
+        </view>
+      </picker>
+
+      <view class="xing">单 位：
+        <input type="text" class="in" name='company' value="{{pro.company}}" />
+      </view>
+      <view class="xing">原 价：
+        <input type='number' class="in" name='price' value="{{pro.price}}" />
+      </view>
+      <view class="xing">优惠价 ：
+        <input type='number' class="in" name='price_yh' value="{{pro.price_yh}}" />
+      </view>
+      <view class="xing">赠送积分：
+        <input type='number' class="in" name='price_jf' value="{{pro.price_jf}}" />
+      </view>
+      <view class="xing">产品编号：
+        <input type='number' class="in" name='pro_number' value="{{pro.pro_number}}" />
+      </view>
+      <view class="xing">库 存：
+        <input type='number' class="in" name='num' value="{{pro.num}}" />
+      </view>
+      <view class="xi">产品介绍：
+        <textarea class="i" name='content' value="{{pro.content}}" />
+      </view>
+      <!--缩略图-->
+      <view class="t">缩略图↓</view>
+      <view class="ii">(限制jpg、png、jpeg，像素：230*230）</view>
+      <view class="page-body-info">
+        <view class="kk">
+          <block wx:if="{{imagemin}}">
+            <image src="{{imagemin}}" class="image" mode="aspectFit" bindtap="del" data-type="min"></image>
+          </block>
+          <block wx:else>
+            <view class="image-plus image-plus-nb" bindtap="choosemin">
+              <image src="../../images/s.png" style="width:100%;height:100%"></image>
+            </view>
+          </block>
+        </view>
+      </view>
+      <!--end-->
+
+      <!--大图-->
+      <view class="t">产品大图↓</view>
+      <view class="ii">(限制jpg、png、jpeg，像素：600*600）</view>
+      <view class="page-body-info">
+        <view class="kk">
+          <block wx:if="{{imagebig}}">
+            <image src="{{imagebig}}" class="image" mode="aspectFit" bindtap="del" data-type="max"></image>
+          </block>
+          <block wx:else>
+            <view class="image-plus image-plus-nb" bindtap="choosebig">
+              <image src="../../images/s.png" style="width:100%;height:100%"></image>
+            </view>
+          </block>
+        </view>
+      </view>
+      <!--end-->
+
+      <!--轮播-->
+      <view class="t">轮播图↓</view>
+      <view class="ii">(限制jpg、png、jpeg，手机端最多上传9张，像素:600*600）</view>
+      <view class="page-body-info">
+        <!--one-->
+        <view class="kk">
+          <view class="image-plus image-plus-nb" bindtap="uploadImage">
+            <image src="../../images/s.png" style="width:100%;height:100%"></image>
+          </view>
+        </view>
+      </view>
+      <!--预览区-->
+      <view wx:for="{{imgarr}}">
+        <image src="{{item}}" class="imgarr"></image>
+      </view>
+      <view class="submit">
+        <input style="display:none" name="proid" value="{{pro.id}}"/>
+        <button type="primary" form-type="submit" class='su'>提交</button>
+      </view>
+    </form>
+  </view>
+
+</view>

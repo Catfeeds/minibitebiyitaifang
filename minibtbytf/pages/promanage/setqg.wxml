@@ -1,0 +1,25 @@
+<!--pages/promanage/setqg.wxml-->
+<view class="cont">
+<view class="section">
+   <view class="myphone">目前状态: {{info.pro_type==1?"普通商品":"抢购商品"}}</view>
+</view>
+<view class="section">
+   <view class="myphone">开始日期:</view>
+  <picker mode="date" value="{{info.startDate}}" start="2017-0-1" end="3017-09-01" bindchange="bindStart">
+    <view class="nb">
+      {{info.startData?'':'请选择:'}} {{startDate?startDate:info.startData}}
+    </view>
+  </picker>
+</view>
+<view class="section">
+   <view class="myphone">结束日期:</view>
+  <picker mode="date" value="{{info.endData}}" start="2017-0-1" end="3017-09-01" bindchange="bindEnd">
+    <view class="nb">
+      {{info.endData?'':'请选择:'}} {{endDate?endDate:info.endData}}
+    </view>
+  </picker>
+</view>
+<button class="but_yes" data-type="2" bindtap="setqg" >设置抢购</button>
+<button class="but_no"  data-type="1" bindtap="setqg" >取消抢购</button>
+</view>
+

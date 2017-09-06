@@ -1,0 +1,45 @@
+<!--pages/promanage/promanage.wxml-->
+<view class="shop" wx:for="{{list}}"  wx:key="id">
+    
+    <view class="classname">
+     <view class="fei">
+        <image src="{{item.photo_x}}"></image>
+     </view>
+     <view class="gongsi">
+         <view>{{item.name}}</view>  
+         <view> 价格：{{item.price_yh}}</view> 
+         <view> 人气：{{item.renqi}}/销量：{{item.shiyong}}</view>
+         <view> 产品编号：{{item.pro_number}}</view>  
+         <view> 状态：{{item.pro_status}}</view>   
+     </view>
+     <!-- <view class="jinru" bindtap="pro_up" data-id="{{item.id}}">
+      <text>状态: 上架</text>  
+     </view> -->
+
+</view>
+<view class="bottoms">
+     <view bindtap="pro_up" class="pro_down" data-id="{{item.id}}">
+      <text>上架</text>  
+     </view>
+     <view bindtap="pro_down" class="pro_down" data-id="{{item.id}}">
+      <text>下架</text>  
+     </view>
+     <view bindtap="qianggou" class="pro_down" data-id="{{item.id}}">
+      <text>抢购设置</text>  
+     </view>
+     <view  bindtap="edit" class="pro_down" data-id="{{item.id}}">
+      <text>编辑</text>  
+     </view>
+     <view  bindtap="del" class="pro_down" data-id="{{item.id}}">
+      <text>删除</text>  
+     </view>
+</view>
+
+
+</view>
+<view class="clear mt10" bindtap="getMore" wx:if="{{list}}">点击查看更多</view>
+<view style="text-align:center;margin-top:300rpx;" wx:if="{{!list}}">你的店铺还没有产品哟！</view>
+
+<!-- <view class="lll">
+    <image src="../../images/kf.png"> <contact-button></contact-button>  <contact-button></contact-button></image>
+</view> -->

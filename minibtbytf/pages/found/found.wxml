@@ -1,0 +1,60 @@
+<view class="found">
+    <form bindsubmit="reg">
+  <view class="found_top">
+    <view class="found_img">
+      <image src="{{userInfo.avatarUrl}}"></image>
+    </view>
+    <view class="found_top_text">
+      <view class="found_user_name">{{userInfo.nickName}}</view>
+      <input type="text" placeholder="请输入常用的手机号" name="tel"/>
+    </view>
+  </view>
+  <view class="found_border">
+    
+    <view class="found_company">
+      <view class="found_company_left">
+        <text>公司<text class="company_text">*</text></text>
+      </view>
+      <input type="text" placeholder="请输入公司名称" name="company" />
+    </view>
+    <view class="bottom"></view>
+    <view class="found_company">
+      <view class="found_company_left">
+        <text>职务<text class="company_text">*</text></text>
+      </view>
+      <input type="text" placeholder="请输入职务" name="job" />
+    </view>
+    <view class="bottom"></view>
+    <view class="found_company">
+      <view class="found_company_left">
+        <text>Email</text>
+      </view>
+      <input type="text" placeholder="请输入邮箱" name="email" />
+    </view>
+    <view class="bottom"></view>
+    <view class="found_company">
+      <view class="found_company_left">
+        <text>微信号</text>
+      </view>
+      <input type="text" placeholder="请输入微信号" name="weixin"/>
+    </view>
+    <view class="bottom"></view>
+    <view class="found_company">
+      <view class="found_company_left">
+        <text>性别</text>
+      </view>
+        <picker bindchange="pickChange" value="{{index}}" range="{{array}}" name="sex">
+             {{array[index]}}<text class="picker_text">.</text>
+        </picker>
+    </view>
+  </view>
+  <view class="textarea">
+    <view class="textarea_text">更多 </view>
+    <textarea bindblur="bindTextAreaBlur" auto-height="false" placeholder="介绍 说明 寄语 祝福 留言 ......" name="intro"/>
+  </view>
+  <view class="buttom">
+     <button type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}"
+        disabled="{{disabled}}" form-type="submit"> 创建 </button> 
+  </view>
+  </form>
+</view>

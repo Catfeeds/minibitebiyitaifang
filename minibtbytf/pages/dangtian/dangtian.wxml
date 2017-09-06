@@ -1,0 +1,23 @@
+<view class="list">
+    <block wx:for="{{shopList}}" wx:key="*this">
+        <view class="ban">
+            <navigator url="../index/detail" class="cover flex-wrp">
+                <image class="banner" src="{{item.shopLogo}}" mode="widthFix"></image>
+          <view class="act-item ellipsis" >
+              <text class="type">{{item.shopAddr}}</text>
+            </view>
+              <view class="act-item ellipsis" >
+                <text class="kkk">{{item.shopName}}</text>
+            </view>
+            <view class="act-item ellipsis" >
+                <text style="color:red">{{item.yuan}}</text>
+            </view>
+              <view class="act-item ellipsis" >
+                <text style="color:#999999;font-size:25rpx">已有{{item.lun}}人评论</text>
+            </view>
+            </navigator>
+        </view> 
+        <view class="commodity_screen" bindtap="hideModal" wx:if="{{showModalStatus}}">fsaffffff</view>
+<view animation="{{animationData}}" class="commodity_attr_box" wx:if="{{showModalStatus}}"></view> 
+    </block>
+</view>

@@ -1,0 +1,85 @@
+
+ $(function(){
+           $(":input").blur(function(){
+               if(this.value==""){
+                   $(this).next("h4").text($(this).prev().text()+"不能为空");
+               } 
+               //用户名 验证   8-12位字母
+               if($(this).is(".Y1")){
+                   var $Y1=$(this).val();
+                   var parr=/^(?![0-9]+$)(?![a-zA-Z]+$)[0-9A-Za-z]{6,12}$/;
+                   if(!parr.test($Y1)){
+                   $(this).addClass("hehe").next("h4").text("请输入6-12位字母及数字！")
+                   }else{ 
+                         $(this).addClass("haha")
+                         .next("h4").text("")
+                      }
+               }
+               
+                 //密码 验证  8-12位字母及数字
+               if($(this).is(".Y2")){
+                   var $Y2=$(this).val();
+                   var parr=/^(?![0-9]+$)(?![a-zA-Z]+$)[0-9A-Za-z]{6,12}$/;
+                   if(!parr.test($Y2)){
+                   $(this).addClass("hehe").next("h4").text("请输入6-12位字母及数字！")
+                   }else{ 
+                         $(this).addClass("haha")
+                         .next("h4").text("")
+                      }
+               }
+               
+               
+                //确认密码 验证
+               if($(this).is(".Y3")){
+                  var self = $(this).val();
+                   if (self!= $(".Y2").val()) {
+                   $(this).addClass("hehe").next("h4").text("两次密码不一致！")
+                   }else{ 
+                         $(this).addClass("haha")
+                         .next("h4").text("")
+                      }
+               }
+               
+               //昵称 验证   汉字
+               if($(this).is(".Y4")){
+                   var $Y4=$(this).val();
+                   var parr=/^[\u4E00-\u9FA5]{2,6}$/;
+                   if(!parr.test($Y4)){
+                   $(this).addClass("hehe").next("h4").text("请输入2-6位中文汉字！")
+                   }else{ 
+                         $(this).addClass("haha")
+                         .next("h4").text("")
+                      }
+               }
+               
+               //手机号  验证   11位数字
+               if($(this).is(".Y5")){
+                   var $Y5=$(this).val();
+                   var parr=/^[1]([3][0-9]{1}|59|58|88|89)[0-9]{8}$/;
+                   if(!parr.test($Y5)){
+                   $(this).addClass("hehe").next("h4").text("请输入11位有效的手机号码！")
+                   }else{ 
+                         $(this).addClass("haha")
+                         .next("h4").text("")
+                      }
+               }
+               
+          
+            
+           })
+           
+           $("form").submit(function(){
+			   $(":input").blur();
+               if($("h4:empty").length==6){			  			
+			   }
+               else{				   
+				   return false; 
+				   }
+           })
+            $(":input").focus(function () {
+            $(this).removeClass("hehe");
+            $(this).next("h4").text("");
+        });
+
+       })
+       

@@ -1,0 +1,47 @@
+
+page{
+  background: #f2f2f2
+}
+.cont{
+ font-family: "微软雅黑"
+
+}
+
+
+.geren{
+  display: flex;
+ 
+
+}
+.shiming{
+  text-align: center;
+  padding: 30rpx 0
+}
+.src{
+  width: 30%;
+  height: 400rpx;
+}
+.src2{
+  width: 30%;
+  height: 562rpx;
+}
+.yi{
+  height: 164rpx;
+  font-size: 30rpx;
+}
+.renzheng{
+  width:75%;
+  background: #01be02;
+  color: #fff;
+  margin: 0 auto;
+  text-align: center;
+  padding: 15rpx 0;
+  border-radius:10rpx ;
+  font-size: 32rpx;
+
+}
+.yue{
+  text-align: center;
+  font-size: 28rpx;
+  padding: 20rpx 0;
+}

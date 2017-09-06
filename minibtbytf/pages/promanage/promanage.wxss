@@ -1,0 +1,147 @@
+/* pages/promanage/promanage.wxss */
+
+.shop {
+  background: white;
+  margin-top: 20rpx;
+  padding: 20rpx 10rpx;
+}
+
+.fei {
+  width: 20%;
+  display: inline-block;
+  height: 180rpx;
+  float: left;
+}
+
+.fei image {
+  width: 150rpx;
+  height: 150rpx;
+}
+
+.gongsi {
+  width: 70%;
+  display: inline-block;
+  font-size: 26rpx;
+  line-height: 40rpx;
+  padding-left: 20rpx;
+  float: left;
+}
+
+.jinru {
+  width: 21%;
+  display: inline-block;
+  font-size: 30rpx;
+  line-height: 155rpx;
+  text-align: center;
+}
+
+.jinru text {
+  padding: 16rpx 6rpx;
+  background: #ccc;
+  border-radius: 10rpx;
+  color: black;
+  font-size: 26rpx;
+}
+
+.sc {
+  white-space: nowrap;
+  display: block;
+  height: 170rpx;
+  margin-top: 20rpx;
+}
+
+.one {
+  /*background: red; */
+  width: 165rpx;
+  height: 165rpx;
+  display: inline-block;
+  margin: 10rpx;
+}
+
+.one image {
+  height: 100%;
+  width: 100%;
+}
+
+.yuan {
+  display: inline-block;
+  position: relative;
+  top: -9rpx;
+  left: -164rpx;
+  background: whitesmoke;
+  font-size: 28rpx;
+  /*border-radius:5rpx; */
+  width: 100%;
+  text-align: center;
+}
+
+.mt10 {
+  margin: 0 auto;
+  text-align: center;
+  height: 70rpx;
+  width: 450rpx;
+  line-height: 70rpx;
+  border-radius: 10rpx;
+  border: 1px solid #999;
+  font-size: 30rpx;
+  margin-top: 20rpx;
+  margin-bottom: 30rpx;
+}
+
+/*店铺保证金*/
+
+.bao {
+  height: 40rpx;
+  line-height: 40rpx;
+  padding-bottom: 10rpx;
+}
+
+.bao_img {
+  width: 40rpx;
+  height: 40rpx;
+  position: relative;
+  top: 10rpx;
+}
+
+/*在线客服*/
+
+.lll {
+  width: 71rpx;
+  height: 69rpx;
+  position: fixed;
+  right: 0px;
+  bottom: 88px;
+  float: right;
+}
+
+.lll image {
+  width: 100%;
+  height: 100%;
+}
+
+contact-button {
+  position: relative;
+  top: -35px;
+  left: 9px;
+  opacity: 0;
+}
+
+.bottoms {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 28rpx;
+  padding-top:40rpx; 
+}
+
+.pro_down {
+  flex: 1;
+  text-align: center;
+}
+
+.pro_down text {
+  background: #d9002f;
+  color: #fff;
+  padding: 10rpx 20rpx;
+  border-radius: 10rpx;
+}

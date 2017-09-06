@@ -1,0 +1,208 @@
+.found_top image {
+  width: 130rpx;
+  height: 130rpx;
+  border:1px solid #d9d9d9;
+  border-radius: 7px;
+  margin-left: 20rpx;
+  margin-top: 32rpx;
+}
+.found_img {
+  width: 27%;
+}
+.found_top {
+  border-top: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
+  display: flex;
+  height: 200rpx;
+   margin-top: 50rpx;  
+  margin-bottom: 50rpx;
+  background: #fff;
+}
+.found_user_name {
+  border-bottom: 1px solid #d9d9d9;
+  height: 50%;
+  line-height: 100rpx;
+}
+.found_top_text {
+  width: 100%;
+  padding-left: 50rpx;
+  box-sizing: border-box;
+}
+.found_phone input {
+  height: 100%;
+  font-family: "微软雅黑";
+  font-weight: 500;
+}
+page {
+  font-size: 30rpx;
+  font-family: "微软雅黑";
+  background: #efeff4;
+}
+.found {
+  background: #efeff4;
+  height: 100%;
+  width: 100%;
+}
+.change {
+    margin-right: 40rpx;
+    border: 1px solid #333;
+    width: 120rpx;
+    height: 70rpx;
+    line-height: 70rpx;
+    text-align: center;
+    border-radius: 6px;
+}
+.found_phone {
+   display: flex; 
+  height: 50%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+/*输入公司信息  */
+.company_text {
+  color: red;
+  font-size: 36rpx;
+}
+.found_border {
+  border-top: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
+  background: #fff;
+  margin-bottom: 50rpx;
+}
+.found_company {
+  display: flex; 
+  height: 100rpx;
+}
+.found_company_left {
+  width: 27%;
+  padding-left: 20rpx;
+  box-sizing: border-box;
+  height: 100rpx;
+  line-height: 100rpx;
+}
+.found_company text {
+   height: 100%;
+   line-height: 100rpx;
+}
+.bottom {
+  margin-left:20rpx;
+  border-bottom: 1px solid #d9d9d9;
+}
+/*textarea  */
+.textarea {
+  display: flex;
+  border-bottom: 1px solid #d9d9d9;
+  border-top: 1px solid #d9d9d9;
+  height: 200rpx;
+  background: #fff;
+  padding-top: 20rpx;
+  overflow: hidden;
+}
+.textarea_text {
+  width: 27%;
+  padding-left:20rpx;
+}
+.textarea textarea {
+  height: 100%;
+}
+.buttom {
+  width: 100%;
+  float: left;
+  padding:0 20rpx;
+  box-sizing: border-box;
+  margin-top: 30rpx;
+  margin-bottom:20rpx;
+}
+.bottom button {
+  width: 100%;
+  background: green;
+}
+/*图片  */
+.photograph {
+  /* height: 200rpx; */
+  background: #fff;
+  border-bottom: 1px solid #d9d9d9;
+  border-top: 1px solid #d9d9d9;
+  margin-top: 50rpx;
+  display: flex;
+  padding: 10rpx;
+  flex-wrap:  wrap;
+}
+.photograph > view {
+  width: 150rpx;
+  height: 150rpx;
+  margin-top: 20rpx;
+  margin-left: 50rpx;
+}
+.photograph .chooseimage {
+  border: 1px solid #d9d9d9;
+  position: relative;
+}
+.level {
+  width: 50%;
+  height: 5rpx;
+  background: #d9d9d9;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -35rpx;
+}
+.vertical {
+  width: 5rpx;
+  height: 50%;
+  background: #d9d9d9;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -35rpx;
+}
+.photograph_img > image {
+  width: 150rpx;
+  height: 150rpx;
+  margin-top: 22rpx;
+  margin-left: 20rpx;
+  box-sizing: border-box;
+  /* background: blueviolet; */
+  position: absolute;
+  top: -8px;
+  left: -8px;
+}
+.found_company picker{
+  line-height: 100rpx;
+  width: 70%;
+  height: 100rpx;
+}
+.picker_text {
+  color:#fff;
+}
+.found_company .input {
+  height: 100rpx;
+  width: 73%;
+}
+.input input {
+  height: 100%;
+  line-height: 100rpx;
+}
+.photograph .img_bottom {
+  width: 100%;
+  height: 50rpx;
+  text-align: center;
+  background: rgba(0,0,0,.5);
+   position: absolute;
+  bottom:-6rpx;
+  left:2px;
+
+}
+.img_bottom > image {
+  width: 50rpx;
+  height: 50rpx;
+  z-index: 333;
+}
+.photograph_img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  border: 1ps solid #d9d9d9;
+}

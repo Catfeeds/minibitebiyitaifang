@@ -1,0 +1,32 @@
+<!--pages/shopmanage/shopmanage.wxml-->
+<view class="page">
+    <view class="userinfo">
+			<image class="userinfo-avatar fl_l" src="{{shopInfo.logo}}" background-size="cover"></image>
+			<text class="fl_l shopname">{{shopInfo.name}}</text>
+      <text class="fl_l baozheng" wx:if="{{shopInfo.shopmoney}}">保证金：{{shopInfo.shopmoney}}</text>
+    </view>
+    <view class="qbdd mt10">
+    <navigator url="../promanage/promanage">
+      <span class="font_14 c3">产品管理</span>
+    </navigator>
+    </view>
+    <view class="qbdd mt10">
+    <navigator url="../myshop/myshop">
+      <span class="font_14 c3">上传产品</span>
+    </navigator>
+    </view>
+    <view class="qbdd mt10">
+    <navigator url="../status/status">
+      <span class="font_14 c3">订单管理<text style="color:red">({{shopOrder}})</text></span>
+    </navigator>
+    </view>
+    <view class="qbdd mt10">
+    <navigator url="shoppwd">
+      <span class="font_14 c3">修改密码</span>
+    </navigator>
+    </view>
+    <view class="lll">
+       <image src="../../images/kf.png"> <contact-button></contact-button>  <contact-button></contact-button></image>
+    </view>
+
+</view>

@@ -1,0 +1,82 @@
+page {
+  height: 100%;
+  width: 100%;
+  background: #fff;
+}
+
+.myphone {
+  font-size: 26rpx;
+  padding: 10rpx;
+  margin-left: 50rpx;
+}
+
+.myphone_input {
+  border: 1rpx solid #ccc;
+  width: 80%;
+  margin: 0 auto;
+  background: #fff;
+  height: 70rpx;
+  border-radius: 30rpx;
+}
+
+input {
+  height: 100%;
+  font-size: 26rpx;
+  padding-left: 30rpx;
+}
+
+.but {
+  background: #d81e06;
+  width: 70%;
+  color: #fff;
+  height: 80rpx;
+  line-height: 80rpx;
+  margin-top: 100rpx;
+  margin-bottom: 100rpx;
+  border-radius: 60rpx;
+}
+
+.nb {
+  background: #fff;
+  font-size: 24rpx;
+  padding: 15rpx 10rpx;
+  margin-left: 74rpx;
+  width: 78%;
+  text-align: center;
+  border: 1rpx solid #ccc;
+  border-radius: 30rpx;
+}
+
+/*供求*/
+
+.tab {
+  flex-direction: row;
+  width: 100%;
+}
+
+.tab-left {
+  width: 100%;
+  line-height: 160%;
+  font-size: 26rpx;
+}
+
+.tab-left view {
+  text-align: center;
+  display: inline-block;
+  width: 20%;
+  padding: 7rpx 0;
+  border: 1px solid #ccc;
+  margin: 10rpx 0rpx;
+  margin-left: 72rpx;
+  border-radius: 30rpx;
+  background: #fff;
+}
+
+.tab-left .active {
+  color: #fff;
+  background: #da0909;
+}
+
+.bb {
+  display: flex;
+}

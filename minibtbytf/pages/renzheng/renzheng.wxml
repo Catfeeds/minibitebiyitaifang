@@ -1,0 +1,143 @@
+<view class="cont">
+  <view class="tou" wx:if="{{rztype=='geren'}}">
+    <view bindtap="gotogeren">
+      个人信息
+      <view class="san">
+        <text class="jiao"></text>
+      </view>
+    </view>
+    <view>></view>
+
+    <view bindtap="gotodianpu">店铺信息</view>
+    <view>></view>
+    <view bindtap="gotoshenhe">提交审核</view>
+  </view>
+
+  <view class="tou" wx:if="{{rztype=='qiye'}}">
+    <view bindtap="gotoqiye">企业信息</view>
+    <view>></view>
+    <view bindtap="gotogeren">
+      个人信息
+      <view class="qiyesan">
+        <text class="jiao"></text>
+      </view>
+    </view>
+    <view>></view>
+
+    <view bindtap="gotodianpu">店铺信息</view>
+    <view>></view>
+    <view bindtap="gotoshenhe">提交审核</view>
+  </view>
+
+
+  <view class="shiming">实名认证
+    <text style="font-size:22rpx">（请上传真实的个人信息，认证通过后将无法修改）</text>
+  </view>
+
+
+  <form bindsubmit="reg">
+    <view class="xing">姓名
+      <input placeholder-class='placeholder' placeholder='请输入真实姓名' class="in" name="linkman" value="{{linkman}}" />
+    </view>
+
+    <view class="xing">身份证/护照
+      <input placeholder-class='placeholder' placeholder='请输入身份证/护照' class="in" name='idc_id' value="{{idc_id}}" />
+    </view>
+    <view class="xing">联系电话
+      <input placeholder-class='placeholder' placeholder='请输入银行名称' class="in" name='tel' value="{{tel}}" />
+    </view>
+    <view class="xing">银行名称
+      <input placeholder-class='placeholder' placeholder='请输入银行(对公账号)名称' class="in" name='grbankname' value="{{grbankname}}" />
+    </view>
+    <view class="xing">开户行名称
+      <input placeholder-class='placeholder' placeholder='请输入开户行名称' class="in" name='grbranchbankname' value="{{grbranchbankname}}" />
+    </view>
+    <view class="xing">银行账号
+      <input placeholder-class='placeholder' placeholder='请输入银行账号' class="in" name='grbankid' value="{{grbankid}}" />
+    </view>
+    <view class="xing" wx:if="{{rztype == 'geren'}}">通讯地址
+      <input placeholder-class='placeholder' placeholder='请输入通讯地址' class="in" name='address' value="{{address}}" />
+    </view>
+
+    <view style="text-align:left;font-size:24rpx;margin-left:20rpx;margin-top:20rpx;color:#999999;">请填写正确的有效电话，确保工作人员能够电话联系到您</view>
+
+    <view class="shenfen">
+
+      <view class="shenfen1">身份证正面照</view>
+      <text style="font-size:26rpx;color:#d9002f;">*请使用手机横向拍摄以保证图片正常显示</text>
+      <block wx:if="{{idc_face}}">
+
+
+        <view class="cl_img">
+          <image src="{{idc_face}}" mode="aspectFit" bindtap="idc_face"></image>
+
+          <view class="hh">此图片仅供审核用</view>
+
+        </view>
+
+
+      </block>
+
+
+      <block wx:else>
+        <view class="cl_img">
+          <image src="../../images/upload.jpg" bindtap="idc_face"></image>
+
+
+        </view>
+      </block>
+
+    </view>
+
+    <view class="shenfen">
+
+      <view class="shenfen1">身份证反面照</view>
+      <text style="font-size:26rpx;color:#d9002f;">*请使用手机横向拍摄以保证图片正常显示</text>
+
+
+      <block wx:if="{{idc_back}}">
+        <view class="cl_img">
+          <image src="{{idc_back}}" mode="aspectFit" bindtap="idc_back"></image>
+          <view class="hh">此图片仅供审核用</view>
+
+        </view>
+
+      </block>
+      <block wx:else>
+        <view class="cl_img">
+          <image src="../../images/upload.jpg" bindtap="idc_back"></image>
+        </view>
+      </block>
+
+
+
+
+    </view>
+
+    <view class="shenfen">
+
+      <view class="shenfen1">手持身份证照</view>
+      <text style="font-size:26rpx;color:#d9002f;">*请使用手机横向拍摄以保证图片正常显示</text>
+      <block wx:if="{{idc_photo}}">
+        <view class="cl_img">
+          <image src="{{idc_photo}}" mode="aspectFit" bindtap="idc_photo"></image>
+                    <view class="hh">此图片仅供审核用</view>
+        </view>
+      </block>
+      <block wx:else>
+        <view class="cl_img">
+          <image src="../../images/upload.jpg" bindtap="idc_photo"></image>
+        </view>
+      </block>
+
+
+    </view>
+
+    <view style="padding-top:30rpx;font-size:30rpx;text-align:center;color:#cccccc">————请确认以上信息准确无误————</view>
+
+    <button type="" form-type="submit" hover-class='button-hover' class='su'>保存并下一步</button>
+  </form>
+
+
+
+</view>

@@ -1,0 +1,30 @@
+
+<view class="section">
+
+
+
+
+
+<view class="orderDetails" wx:for="{{list}}" data-id="{{item.id}}" bindtap="video" >
+	<view class="orderListDetails">
+		<view class="productImg">
+			<image class="img1" src="{{item.photo}}"></image>
+        <view class="bo">
+        <image src="../../images/baa.png"></image>
+    </view>
+		</view>
+		<view class="productInfo" >
+            <view class="productTitle">{{item.name}}</view>
+            <view class="productDigest">{{item.digest}}</view>
+     <view class="fs">
+
+     <text class="shan"> 播放量:{{item.visit}}</text> <text class="shan" style="float:right;padding-right:40rpx;font-size:29rpx">查看详情</text>
+
+         </view>   
+	</view>
+	</view>
+</view>	
+
+<view class="clear mt10" bindtap="getMore" wx:if="{{list}}">点击查看更多</view>
+
+</view>

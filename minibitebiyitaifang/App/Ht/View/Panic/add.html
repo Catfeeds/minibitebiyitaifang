@@ -1,0 +1,381 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>后台管理</title>
+<link href="__PUBLIC__/ht/css/main.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/ht/css/jquery.datetimepicker.css"/>
+<script type="text/javascript" src="__PUBLIC__/ht/js/jquery.js"></script>
+<script type="text/javascript" src="__PUBLIC__/ht/js/action.js"></script>
+<script type="text/javascript" src="__PUBLIC__/plugins/xheditor/xheditor-1.2.1.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/plugins/xheditor/xheditor_lang/zh-cn.js"></script>
+<script type="text/javascript" src="__PUBLIC__/ht/js/jCalendar.js"></script>
+<style>
+.dx1{float:left; margin-left: 17px; margin-bottom:10px; }
+.dx2{color:#090; font-size:16px;  border-bottom:1px solid #CCC; width:100% !important; padding-bottom:8px;}
+.dx3{width:120px; margin:5px auto; border-radius: 2px; border: 1px solid #b9c9d6; display:block;}
+.dx4{border-bottom:1px solid #eee; padding-top:5px; width:100%;}
+.img-err {
+    position: relative;
+    top: 2px;
+    left: 82%;
+    color: white;
+    font-size: 20px;
+    border-radius: 16px;
+    background: #c00;
+    height: 21px;
+    width: 21px;
+    text-align: center;
+    line-height: 20px;
+    cursor:pointer;
+}
+.btn{
+            height: 25px;
+            width: 60px;
+            line-height: 24px;
+            padding: 0 8px;
+            background: #24a49f;
+            border: 1px #26bbdb solid;
+            border-radius: 3px;
+            color: #fff;
+            display: inline-block;
+            text-decoration: none;
+            font-size: 13px;
+            outline: none;
+            -webkit-box-shadow: #666 0px 0px 6px;
+            -moz-box-shadow: #666 0px 0px 6px;
+        }
+        .btn:hover{
+          border: 1px #0080FF solid;
+          background:#D2E9FF;
+          color: red;
+          -webkit-box-shadow: rgba(81, 203, 238, 1) 0px 0px 6px;
+          -moz-box-shadow: rgba(81, 203, 238, 1) 0px 0px 6px;
+        }
+        .cls{
+            background: #24a49f;
+        }
+</style>
+</head>
+<script src="__PUBLIC__/ht/js/jquery.date.js"></script>
+<script src="__PUBLIC__/ht/js/jquery.datetimepicker.js"></script>
+<script type="text/javascript">
+$(function(){
+　　$('#datetimepicker').datetimepicker({
+      format:'Y-m-d H:00',
+      formatDate:'Y-m-d H:00',
+    });
+    $('#datetimepicker2').datetimepicker({
+      format:'Y-m-d H:00',
+      formatDate:'Y-m-d H:00',
+    });
+}); 
+
+</script>
+<body>
+
+<div class="aaa_pts_show_1">【 抢购产品管理 】</div>
+
+<div class="aaa_pts_show_2">
+    <div>
+       <div class="aaa_pts_4"><a href="{:U('Panic/index')}">全部抢购产品</a></div>
+       <div class="aaa_pts_4"><a href="{:U('Panic/add')}">添加抢购产品</a></div>
+    </div>
+    <div class="aaa_pts_3">
+		<form action="?id={$id}&page={$page}&type={$type}&name={$name}&shop_id={$shop_id}" method="post" onsubmit="return ac_from();" enctype="multipart/form-data">
+		<ul class="aaa_pts_5">
+      <li>
+         <div style="color:#c00; font-size:14px; padding-left:20px;">
+            说明：可对现有产品进行抢购设置，也自行可添加新的抢购产品；为了方便管理，添加成功后将不能修改，只能删除
+         </div>
+      </li>
+      <li>
+        <div class="d1">选择产品:</div>
+        <div>
+          <input class="inp_1" id="pro_name" name="pro_name" value="{$pro_allinfo.name}" disabled="disabled"/>
+          <input type="hidden" name="pid" id="pid" value=""/>
+          <?php if (intval($hotinfo['id'])<=0) { ?>
+          <input type="button" value="选择产品" class="aaa_pts_web_3" style="margin-left:15px;" onclick="win_open('{:U('get_pro')}?type=xz',1280,800)">
+          <?php } ?>
+        </div>
+      </li>
+			<li>
+				<div class="d1">产品名称:</div>
+				<div>
+					<input class="inp_1" name="name" id="name" value="{$pro_allinfo.name}"/>
+				</div>
+			</li>
+      <li id="yin0">
+        <div class="d1">广告语:</div>
+        <div>
+          <input class="inp_1" name="intro" style="width:350px" id="intro" value="{$pro_allinfo.name}"/>
+        </div>
+      </li>
+
+         <!-- 产品分类 -->
+      <li class="product" id="yin1"><div class="d1 dx2">品牌分类</div></li>
+         <li id="yin2">
+            <div class="d1">选择分类:</div>
+            <div>
+              <select class="inp_1" name="cateid" id="cateid" onchange="getcid();" style="width:150px;margin-right:5px;">
+                <!-- 遍历 -->
+                <option value="">一级分类</option>
+                <volist name="cate_list" id="v">
+                  <option value="{$v.id}" <if condition="$v.id eq $pro_allinfo['tid']">selected="selected"</if>>-- {$v.name}</option>
+                </volist>
+                <!-- 遍历 -->
+              </select>
+              <?php if($catetwo) { ?>
+              <select class="inp_1" name="cid" id="cid" style="width:150px;">
+                <option value="">二级分类</option>
+                <volist name="catetwo" id="v">
+                  <option value="{$v.id}" <if condition="$v.id eq $pro_allinfo['cid']">selected="selected"</if>>-- {$v.name}</option>
+                </volist>
+              </select>
+              <?php } else { ?>
+              <select class="inp_1" name="cid" id="cid" style="width:150px;">
+                <option value="">二级分类</option>
+              </select>
+              <?php } ?>
+              <span id="catedesc" style="color:red;font-size: 12px;">&nbsp;&nbsp; * 必选项</span>
+            </div>
+         </li>
+         <!-- 产品分类 -->
+
+         <li class="product" id="yin3">
+          <div class="d1">产品品牌:</div>
+          <div>
+            <select class="inp_1" name="brand_id" id="brand_id" style="width:150px;margin-right:5px;">
+                <!-- 遍历 -->
+                <option value="">选择品牌</option>
+                <volist name="brand_list" id="v">
+                  <option value="{$v.id}" <if condition="$v.id eq $pro_allinfo['brand_id']">selected="selected"</if>>-- {$v.name}</option>
+                </volist>
+                <!-- 遍历 -->
+              </select>
+          </div>
+        </li>
+
+		<!-- 产品单位 -->
+        <li class="product" id="yin12"><div class="d1 dx2">产品单位</div></li>
+		    <li class="product" id="yin13">
+          <div class="d1">单 位:</div>
+          <div>
+            <input class="inp_1 inp_6" name="company" id="company" value="{$pro_allinfo.company}"/><span style="color:red;font-size: 12px;">&nbsp;&nbsp;举例:个/只/件&nbsp;&nbsp;请根据产品来自行添加相应单位</span>
+            </div>
+        </li>
+        <!-- 产品单位 -->
+		 
+         <li class="product"><div class="d1 dx2">价格管理</div></li>
+         <li class="product">
+            <div class="d1">原 价:</div>
+            <div>
+              <input class="inp_1 inp_6" name="price" id="price" value="{$pro_allinfo.price}"/>
+            </div>
+         </li>
+         <li class="product">
+            <div class="d1">抢购价:</div>
+            <div>
+              <input class="inp_1 inp_6" name="price_yh" id="price_yh" value="{$pro_allinfo.price_yh}"/>
+            </div>
+         </li>
+         <li class="product">
+            <div class="d1">赠送积分:</div>
+            <div>
+              <input class="inp_1 inp_6" name="price_jf" id="price_jf" value="{$pro_allinfo.price_jf}"/>
+              <span style="color:red;font-size: 12px;">&nbsp;&nbsp;说明: 赠送积分用于前端积分兑换</span>
+            </div>
+         </li>
+         <li class="product"><div class="d1 dx2">其他信息</div></li>
+         <li>
+            <div class="d1">开始时间:</div>
+            <div>
+              <input type="text" class="inp_1 inp_6" name="start_time" id="datetimepicker" value="<?php echo $pro_allinfo['start_time']=='' ? date('Y-m-d H:00',strtotime('+1 hour')) : $pro_allinfo['start_time']; ?>" onfocus="getdate();" />
+              <span style="color:red;margin-left:5px;">&nbsp;* 请把开始时间设置大于当前时间</span>
+            </div>
+         </li>
+         <li>
+            <div class="d1">结束时间:</div>
+            <div>
+              <input type="text" class="inp_1 inp_6" name="end_time" id="datetimepicker2" value="<?php echo $pro_allinfo['end_time']=='' ? date('Y-m-d H:00',strtotime('+1 day +1 hour')) : $pro_allinfo['end_time']; ?>" onfocus="getenddate();" />
+              <span style="color:red;margin-left:5px;">&nbsp;* 请把结束时间设置大于开始时间</span>
+            </div>
+         </li>
+         <li id="yin14">
+            <div class="d1">产品编号:</div>
+            <div>
+              <input class="inp_1 inp_6" name="pro_number" id="pro_number" value="{$pro_allinfo.pro_number}"/>
+            </div>
+         </li>
+         <li>
+            <div class="d1">数量:</div>
+            <div>
+              <input class="inp_1 inp_6" name="num" id="num" value="<?php echo $pro_allinfo['num']==0 ? 999999 : $pro_allinfo['num']; ?>"/>
+              请填写0~999999999之间的数字
+            </div>
+         </li>
+		    <li id="yin4">
+          <div style="color:#c00; font-size:14px; padding-left:20px;">上传产品列表缩略图大小:  230*230的图片 &nbsp;&nbsp;&nbsp;只能添加一张图片！！</div>
+        </li>
+        <li id="yin5">
+          <div class="d1">缩略图:</div>
+           <div>
+            <?php if ($pro_allinfo['photo_x']) { ?>
+                  <img src="__DATA__/<?php echo $pro_allinfo['photo_x']; ?>" width="80" height="80" style="margin-bottom: 3px;" />
+                  <br />
+              <?php } ?>
+              <input type="file" name="photo_x" id="photo_x" />
+            </div>
+         </li>
+        <li id="yin6">
+            <div style="color:#c00; font-size:14px; padding-left:20px;">上传产品大图:  600*600的图片&nbsp;&nbsp;&nbsp;<!-- 可多张 --></div>
+        </li>
+        <li id="yin7">
+          <div class="d1">大 图:</div>
+           <div>
+            <?php if ($pro_allinfo['photo_d']) { ?>
+                  <img src="__DATA__/<?php echo $pro_allinfo['photo_d']; ?>" width="125" height="125" style="margin-bottom: 3px;" />
+                <br />
+              <?php } ?>
+              <input type="file" name="photo_d" id="photo_d" />
+           </div>
+         </li>
+         <li id="yin8">
+            <div style="color:#c00; font-size:14px; padding-left:20px;">上传产品详情轮播图: 600*600的图片，可添加多张&nbsp;&nbsp;&nbsp;<!-- 可多张 --></div>
+         </li>
+        <?php if (is_array($img_str)) { ?>
+        <li id="yin9">
+          <div class="d1">已上传：</div>
+          <?php foreach ($img_str as $v) { ?>
+           <div>
+            <div class="img-err" title="删除" onclick="del_img('<?php echo $v; ?>',this);">×</div>
+             <?php if (intval($pro_allinfo['import_id'])!=0) { ?>
+              <img src="<?php echo C('IMPORT_IMG_URL').$v; ?>" width="125" height="125">
+             <?php }else{ ?>
+              <img src="<?php echo '__DATA__/'.$v; ?>" width="125" height="125">
+             <?php } ?>
+           </div>
+          <?php } ?>
+         </li>
+         <?php } ?>
+         <li id="imgs_add">
+          <div class="d1">轮播图:</div>
+           <div>
+              <input type="file" name="files[]" style="width:160px;" />
+           </div>
+          </li>
+        <li id="yin10">
+          <div class="d1">&nbsp;</div>
+          <div>
+             &nbsp;<span class="btn cls" style="background:#D0D0D0; width:40px; color:black;" onclick="upadd();">添加+</span>
+          </div>
+        </li>
+         <li id="yin11">
+            <div class="d1">产品介绍:</div>
+            <div>
+              <textarea class="inp_1 inp_2" name="content" id="content"/>{$pro_allinfo.content}</textarea>
+            </div>
+         </li>
+        <li>
+            <div class="d1">排序:</div>
+            <div>
+              <input class="inp_1" style="width:150px;" name="sort" id="sort" value="<?php echo (int)$pro_allinfo['sort']; ?>"/> &nbsp;&nbsp;排序数量越大，排名越靠前
+            </div>
+         </li>
+         <li>
+            <div class="d1">人气:</div>
+            <div>
+              <input class="inp_1" style="width:150px;" name="renqi" id="renqi" value="<?php echo (int)$pro_allinfo['renqi']; ?>"/>
+            </div>
+         </li>      
+      <li><input type="submit" name="submit" value="提交" class="aaa_pts_web_3" border="0" id="aaa_pts_web_s">
+          <input type="hidden" name="pro_id" id='pro_id' value="{$pro_allinfo.id}">
+      </li>
+      </ul>
+      </form>
+         
+    </div>
+    
+</div>
+<script type="text/javascript" src="__PUBLIC__/ht/js/product.js"></script>
+<script>
+function getdate(){
+  $('#datetimepicker').datetimepicker();
+}
+
+function getenddate(){
+  $('#datetimepicker2').datetimepicker();
+}
+
+function upadd(obj){
+  //alert('aaa');
+  $('#imgs_add').append('<div>&nbsp;&nbsp;<input type="file" style="width:160px;" name="files[]" /><a onclick="$(this).parent().remove();" class="btn cls" style="background:#D0D0D0; width:40px; color:black;"">&nbsp;&nbsp;&nbsp;删除</a></div>');
+  return false;
+}
+
+function getcid(){
+  var cateid = $('#cateid').val();
+  $.post('{:U("getcid")}',{cateid:cateid},function(data){
+      if(data.catelist!=''){
+        var htmls = '<option value="">二级分类</option>';
+        var cate = data.catelist;
+        for (var i = 0; i<cate.length; i++) {
+          htmls += '<option value="'+cate[i].id+'">-- '+cate[i].name+'</option>';
+        }
+        $('#cid').html(htmls);
+        $('#catedesc').html('&nbsp;&nbsp; * 必选项');
+      }else{
+        $('#cid').html('<option value="">二级分类</option>');
+        $('#catedesc').html('&nbsp;&nbsp; * 该分类下还没有二级分类，请先添加');
+      }
+    },"json");
+}
+
+//图片删除
+function del_img(img,obj){
+  var pro_id = $('#pro_id').val();
+  if (confirm('是否确认删除？')) {
+    $.post('{:U("img_del")}',{img_url:img,pro_id:pro_id},function(data){
+      if(data.status==1){
+        $(obj).parent().remove();
+        return false;
+      }else{
+        alert(data.err);
+        return false;
+      }
+    },"json");
+  };
+}
+
+function ac_from(){
+
+  var name=document.getElementById('name').value;
+  if(name.length<1){
+	  alert('产品名称不能为空');
+	  return false;
+	} 
+  
+  var pid = parseInt(document.getElementById("pid").value);
+  var cid=parseInt(document.getElementById("cid").value);
+  if(!cid && !pid){
+    alert("请选择分类.");
+    return false;
+  }
+
+  var price_yh = document.getElementById("price_yh").value;
+  if (!price_yh) {
+    alert("请输入抢购价.");
+    return false;
+  };
+  
+}
+
+//初始化编辑器
+$('#content').xheditor({
+  skin:'nostyle' ,
+  upImgUrl:'{:U("Upload/xheditor")}'
+});
+</script>
+</body>
+</html>

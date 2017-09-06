@@ -1,0 +1,17 @@
+<view class="new">
+     <view class="biaoti">{{news.name}}</view>
+
+<view class="riqi">
+        <text>{{news.from}}</text>
+        <text>   {{news.addtime}}</text>
+</view>
+<view class="news">
+    <import src="../../wxParse/wxParse.wxml"/> 
+    <view class="wxParse">
+        <scroll-view style="height:2000rpx;" scroll-y='true'>
+          <template is="wxParse" data="{{wxParseData:content.nodes}}"/>
+        </scroll-view>
+    </view> 
+</view>
+
+</view>

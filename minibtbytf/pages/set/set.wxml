@@ -1,0 +1,64 @@
+<view class="container">
+ <image class="tit" src="{{guanggao}}"></image>
+ <!--没交保证金-->
+   <view class="classname" wx:if="{{shopmoney==false}}">
+
+
+  <form bindsubmit="reg">      
+       <radio-group class="radio-group" bindchange="radioChange">
+  <label class="radio" wx:for="{{items}}" style="display:block">
+    <radio value="{{item.name}}" checked="{{item.checked}}" style="text-align: left; margin:20rpx 120rpx;margin-right:20rpx;"/>
+    
+    ￥<input class="inp" name="money"  value="" />
+    
+  </label>
+</radio-group>
+ 
+ 
+      <view class="jj">请核对好信息，金额请填整数</view>
+
+<view class="shuoming">
+
+<checkbox-group class="group" bindchange="checkboxChange">
+    <view class="label-1" wx:for-items="{{checkboxItems}}">
+
+
+        <label >
+            <checkbox hidden value="{{item.name}}" checked="{{item.checked}}"></checkbox>
+            <view class="label-1__icon">
+                <view class="label-1__icon-checked" style="opacity:{{item.checked ? 1: 0}}"></view>
+            </view>
+        </label>
+
+
+
+ <text class="label-1__text">{{item.value}}</text><text class="label-2__text" style="color:#7171C6" bindtap="modalTap">【缴纳保证金说明】</text>
+    </view>
+</checkbox-group>
+
+</view>
+
+<button type=""    
+   form-type="submit" hover-class='button-hover' class='su'>立刻缴纳</button>
+   </form>   
+   </view>
+
+   <!--已经交了保证金-->
+   <view class="classname" wx:else>
+
+
+  <form bindsubmit="reg">      
+       <radio-group class="radio-group" bindchange="radioChange">
+  <label class="radio" wx:for="{{items}}" style="display:block">
+    <radio value="{{item.name}}" checked="{{item.checked}}" style="text-align: left; margin:20rpx 120rpx;margin-right:20rpx;"/>
+    
+    你已交保证金￥{{shopmoney}}
+    
+  </label>
+</radio-group>
+
+<button type="" hover-class='button-hover' class='su' bindtap="refund">申请退还保证金</button>
+   </form>   
+   </view>
+
+</view> 

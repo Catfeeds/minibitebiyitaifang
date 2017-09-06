@@ -1,0 +1,22 @@
+<view class="orderDetails" wx:for="{{pro}}">
+	<view class="orderListDetails">
+		<view class="productImg">
+			<image src="{{item.photo_x}}"></image>
+		</view>
+		<view class="productInfo">
+			<view class="product">{{item.name}}</view>
+            <view class="productTitle">{{item.intro}}</view>
+     <view class="fs">
+     	<text class="productPrice">¥ {{item.price_yh}} </text>
+     	<text class="shan"> ¥ {{item.price}}</text> 
+    	<text class="productQuantity" bindtap='like' data-state="{{item.state}}" data-pid="{{item.id}}">{{item.desc}}</text>
+     </view>
+	</view>
+	</view>
+</view>	
+<view style="text-align:center;margin-top:10%;display:{{pro==''?'block':'none'}}">
+    暂无限时抢购活动,请再逛逛吧^_^！
+</view>
+
+
+

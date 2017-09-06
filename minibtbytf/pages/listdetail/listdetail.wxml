@@ -1,0 +1,61 @@
+<!--筛选-->
+<view class="tab-left" bindtap="tabFun">
+  <view class="{{tabArr.curHdIndex=='0'? 'active' : ''}} j" id="tab-hd01" data-id="0">
+    综合
+  </view>
+  <!--需复制替换-->
+  <view class="{{tabArr.curHdIndex=='1'? 'active' : ''}} j" id="tab-hd02" data-id="1" data-p="{{p}}" >销量
+  <!-- 向上的三角形 -->
+  <view class="triangle-up {{tabArr.ab=='4'? 'san' : ''}}"></view>
+  <!--三角形下-->
+  <view class="triangle-down {{tabArr.ab=='5'? 'sa' : ''}}"></view>
+  <!--三角形下-->
+  </view>
+  <!--需复制替换-->
+  <view class="{{tabArr.curHdIndex=='2'? 'active' : ''}} j" id="tab-hd01" data-id="2" data-t="{{t}}">价格   
+  <!-- 向上的三角形 -->
+  <view class="triangle-up {{tabArr.agg=='4'? 'san' : ''}}"></view>
+  <!--三角形下-->
+  <view class="triangle-down {{tabArr.agg=='5'? 'sa' : ''}}"></view>
+  <!--三角形下-->
+  </view>
+  <view class="{{tabArr.curHdIndex=='3'? 'active' : ''}} j" id="tab-hd02" data-id="3">新品</view>
+</view>
+<!--筛选end-->
+<view class="list">
+    <block wx:for="{{shopList}}" wx:key="*this" data-id="{{item.id}}">
+        <view class="ban">
+            <navigator url="../product/detail?productId={{item.id}}" class="cover flex-wrp">
+                <image class="banner" src="{{item.photo_x}}" ></image>
+          <view class="act-item ellipsis">
+              <text class="type">{{item.name}}</text>
+            </view>
+              <!--<view class="act-item ellipsis" >
+                <text class="kkk">{{item.intro}}</text>
+            </view>-->
+            <view class="act-item ellipsis" >
+                <text style="color:red">¥ {{item.price_yh}}</text>
+            </view>
+              <view class="act-item ellipsis" >
+                <text style="color:#999999;font-size:25rpx">已有{{item.shiyong}}人购买</text>
+            </view>
+            </navigator>
+        </view>
+        <view class="commodity_screen" bindtap="hideModal" wx:if="{{showModalStatus}}"></view>
+        <view animation="{{animationData}}" class="commodity_attr_box" wx:if="{{showModalStatus}}"></view> 
+    </block>
+    <view class="clear mt10" bindtap="getMore" style="display:{{shopList==''?'none':'block'}}">点击查看更多</view>
+</view>
+
+<view style="text-align:center;margin-top:10%;display:{{shopList==''?'block':'none'}}">
+    暂无商品,请再逛逛吧^_^！
+</view>
+
+
+
+
+
+
+
+
+

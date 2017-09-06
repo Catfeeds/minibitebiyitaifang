@@ -1,0 +1,70 @@
+<view class="cont">
+  <view class="tab-left" bindtap="tabFun">
+    <view class="swiper-tab-list {{tabArr.curHdIndex=='0'? 'active' : ''}}" id="tab-hd01" data-id="0">待发货</view>
+    <view class="swiper-tab-list {{tabArr.curHdIndex=='1'? 'active' : ''}}" id="tab-hd01" data-id="1">已发货</view>
+  </view>
+  <!-- begin -->
+  <view class="tab-right">
+  <!--1-->
+  <view class="a right-item {{tabArr.curBdIndex=='0'? 'active' : ''}}" wx:for="{{deliver}}">
+    <view class="a_a">
+      <view class="a_aa">订单状态</view>
+      <view class="a_ab">{{item.status}}</view>
+    </view>
+
+    <view class="a_b">
+      <view class="a_ba">
+        <view class="a_baa">下单用户：{{item.username}}</view>
+        <view class="a_baa">下单时间：{{item.addtime}}</view>
+        <view class="a_bb">
+          <view style="padding:10rpx 0;">数量：×{{item.product_num}}</view>
+          <view>
+            金额：<text style="font-size:30rpx">￥{{item.price}}</text>
+          </view>
+        </view>
+      </view>
+    </view>
+
+    <view class="h_b">
+      <view class="a_p">
+        订单号：{{item.order_sn}}
+      </view>
+
+      <text class="ding" bindtap="order" data-id="{{item.id}}">订单详情</text>
+    </view>
+  </view>
+  <!-- <view class="noorder" wx:if="{{deliver}}">暂无订单需要处理!</view> -->
+  <!-- 2 -->
+  <view class="a right-item {{tabArr.curBdIndex=='1'? 'active' : ''}}" wx:for="{{finish}}">
+    <view class="a_a">
+      <view class="a_aa">订单状态</view>
+      <view class="a_ab">{{item.status}}</view>
+    </view>
+
+    <view class="a_b">
+      <view class="a_ba">
+        <view class="a_baa">下单用户：{{item.username}}</view>
+        <view class="a_baa">下单时间：{{item.addtime}}</view>
+        <view class="a_bb">
+          <view style="padding:10rpx 0;">数量：×{{item.product_num}}</view>
+          <view>
+            金额：<text style="font-size:30rpx">￥{{item.price}}</text>
+          </view>
+        </view>
+      </view>
+    </view>
+
+    <view class="h_b">
+      <view class="a_p">
+        订单号：{{item.order_sn}}
+      </view>
+
+      <text class="ding" bindtap="order" data-id="{{item.id}}">订单详情</text>
+    </view>
+  </view>
+<!-- end -->
+</view>
+  
+  
+
+</view>

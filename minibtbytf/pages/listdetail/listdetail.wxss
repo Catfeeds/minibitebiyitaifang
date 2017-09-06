@@ -1,0 +1,211 @@
+page {
+  height: 100%;
+  background: white
+}
+
+.list-tab {
+  height: 106rpx;
+  box-sizing: border-box;
+  padding: 5px 10px;
+}
+
+.list-tab ul {
+  display: flex;
+  height: 72rpx;
+  border: 1px solid #b6aaec;
+  border-radius: 12rpx;
+}
+
+.list-tab li {
+  flex: 1;
+  display: flex;
+  font-size: 14px;
+  justify-content: center;
+  align-items: center;
+  color: #b6aaec;
+}
+
+.list-tab .active {
+  background: #b6aaec;
+  color: #fff;
+}
+
+/*list-box*/
+
+.list-view {
+  border-top: 1px solid #ccc;
+}
+
+.list-box {
+  display: flex;
+  padding: 5px 10px;
+  border-bottom: 1px solid #aaa;
+}
+
+.list-images image {
+  width: 170rpx;
+  height: 170rpx;
+}
+
+.list-text {
+  font-size: 14px;
+  color: #666;
+  flex: 1;
+  background-size: 60rpx;
+}
+
+.list-text .name {
+  display: block;
+  height: 80rpx;
+  padding: 5px;
+}
+
+.list-text .txt {
+  padding: 5px;
+  color: #aaa;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.list-text .price {
+  font-size: 18px;
+  color: red;
+}
+
+.swiper-box {
+  height: 100%;
+}
+
+.scroll-box {
+  height: 100%;
+}
+
+.addcart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.addcart image {
+  width: 80rpx;
+  height: 80rpx;
+}
+.list{
+  background: #fff;
+  width: 100%;
+}
+.ban{
+  width: 46%;
+  padding: 10rpx ;
+  border: 2rpx solid #ccc;
+  display: inline-block;
+  margin-left:4rpx ;
+}
+.ban image{
+  width: 347rpx;
+  height:  347rpx;
+}
+.type{
+  font-size:30rpx;
+  font-weight: 700;
+  margin-left: 10rpx;
+}
+ .kkk{
+    font-size:28rpx;
+  /*font-weight: 700;*/
+  margin-left: 10rpx;
+}
+
+
+
+.commodity_screen {
+ width: 100%;
+ height: 100%;
+ position: fixed;
+ top: 0;
+ left: 0;
+ background: #000;
+ opacity: 0.2;
+ overflow: hidden;
+ z-index: 1000;
+ color: #fff;
+}
+.commodity_attr_box {
+ width: 100%;
+ overflow: hidden;
+ position: fixed;
+ bottom: 0;
+ left: 0;
+ z-index: 2000;
+ background: #fff;
+ padding-top: 20rpx;
+}
+.mt10{
+  margin: 0 auto;
+  text-align: center;
+  height: 70rpx;
+  width: 450rpx;
+  line-height: 70rpx;
+  border-radius:10rpx; 
+  border: 1px solid #999;
+  font-size: 30rpx;
+  margin-top: 20rpx;
+  margin-bottom: 30rpx;
+}
+
+/*筛选*/
+.tab-left {
+  width: 100%;
+  line-height: 160%;
+  font-size: 32rpx;
+  border-right: solid 1px gray;
+}
+
+.tab-left .j {
+  text-align: center;
+  display: inline-block;
+  width: 25%;
+  padding: 20rpx 0;
+}
+
+.tab-left .active {
+  color: #f00;
+  border-bottom: solid 5rpx red;
+}
+/*上三角*/
+.triangle-up {
+width:0;
+height:0;   
+border-left:8rpx solid transparent;   
+border-right:8rpx solid transparent;   
+border-bottom:8rpx solid #000;display:inline-block;
+float: right;
+position: absolute;
+top: 36rpx;
+margin-left: 10rpx;
+}
+ .j .san{
+border-left:8rpx solid transparent;   
+border-right:8rpx solid transparent;   
+border-bottom:8rpx solid #f00;
+   }
+/*下三角*/
+
+.triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 8rpx solid transparent;
+    border-right: 8rpx solid transparent;
+    border-top: 8rpx solid #000;         display:inline-block;
+    position: absolute;
+    top: 50rpx;margin-left: 10rpx;
+
+}
+.j .sa{
+  border-left: 8rpx solid transparent;
+  border-right: 8rpx solid transparent;
+  border-top: 8rpx solid red;   
+}
+/*筛选end*/

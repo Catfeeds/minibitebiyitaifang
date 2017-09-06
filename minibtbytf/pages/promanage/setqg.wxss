@@ -1,0 +1,50 @@
+/* pages/promanage/setqg.wxss */
+page {
+  height: 100%;
+  width: 100%;
+  background: #fff;
+}
+.cont{
+  height: 100%;
+  width: 100%;
+  font-family: "微软雅黑";
+  background: #fff;
+}
+.myphone{
+  font-size: 26rpx;
+  padding: 10rpx;
+  margin-left: 50rpx;
+
+}
+.nb{
+  background:#fff;
+  font-size:24rpx;
+  padding:15rpx 10rpx;
+  margin-left:74rpx;
+  width:78%;
+  text-align: center;
+  border: 1rpx solid #ccc;
+  border-radius: 30rpx;
+}
+.but_yes{
+  background: 	#d81e06;
+  width: 70%;
+  color: #fff;
+  height: 80rpx;
+  line-height: 80rpx;
+  margin-top: 60rpx;
+  margin-bottom: 30rpx;
+  border-radius: 60rpx;
+  font-size: 24rpx;
+}
+.but_no{
+  background: 	#ccc;
+  width: 70%;
+  color: #fff;
+  height: 80rpx;
+  line-height: 80rpx;
+  margin-top: 30rpx;
+  margin-bottom: 100rpx;
+  border-radius: 60rpx;
+  font-size: 24rpx;
+}

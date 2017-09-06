@@ -1,0 +1,18 @@
+<!--pages/shopmanage/shoppwd.wxml-->
+<view class="container">
+ 
+   <view class="classname">
+   <view class="tips">*新开通的商家初始密码为888888，账号名为您当前微信昵称，如果昵称包含表情请修改为不包含再登陆本平台即可视为改名成功，为了您的账号安全，请尽快修改登陆密码</view>
+
+ <form bindsubmit="editpwd">        
+         <view class="xing">新密码
+           <input placeholder-class='placeholder'  placeholder='请输入新密码'  class="in" name='pwd' value="" />
+         </view>
+         <view class="xing">确认密码
+           <input placeholder-class='placeholder'  placeholder='请确认密码'  class="in" name='repwd' value="" />
+         </view>
+<button type="" form-type="submit" hover-class='button-hover' class='su'>保存</button>
+   </form>   
+   </view>
+
+</view> 
