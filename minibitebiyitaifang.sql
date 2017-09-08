@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50553
 File Encoding         : 65001
 
-Date: 2017-09-05 18:58:33
+Date: 2017-09-08 09:31:34
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -4112,20 +4112,25 @@ CREATE TABLE `lr_user` (
   `type` tinyint(4) DEFAULT '0' COMMENT '0:未编辑名片；1:已编辑名片',
   `intro` varchar(255) DEFAULT NULL COMMENT '个人标语',
   `img` varchar(255) DEFAULT NULL COMMENT '个人相册',
+  `address` varchar(255) DEFAULT NULL COMMENT '地址',
+  `shengri` varchar(255) DEFAULT NULL COMMENT '生日',
+  `tel2` char(255) DEFAULT NULL COMMENT '座机',
+  `is_show` int(11) NOT NULL DEFAULT '1' COMMENT '是否显示',
+  `qrcode` varchar(255) DEFAULT NULL COMMENT '个人名片二维码',
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM AUTO_INCREMENT=9 DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC;
 
 -- ----------------------------
 -- Records of lr_user
 -- ----------------------------
-INSERT INTO `lr_user` VALUES ('1', 'Jaswen沛源', 'Jaswen沛源', '46cc468df60c961d8da2326337c7aa58', '1501655432', '0', 'https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83epnvYMyMehPIGxelQ9qwnFuwicqibA2Ie3DmsY4AOpV9RTK14sENia0bBAIVdHorNL4ED6qnEXdPw70A/0', '18814373687', '0', 'weixin123456', '960316350@qq.com', '1', '0', 'oijXv0HrbjeMkHrtCSdw0QFDbsLA', 'wx', '0', '0', '0.00', 'normal', null, null, '0', null, null);
-INSERT INTO `lr_user` VALUES ('2', 'Jaswen', 'Jaswen', '', '1501667734', '0', 'https://wx.qlogo.cn/mmopen/vi_32/5yZrD5O4VpLmibVt76ecu3ZswkKjiavlVr46anaw9OxXJ80omz3IeoKQQNaTTYPgzFY5hRBgK0bFffibdgibSG4F3w/0', '1501667734', '0', '', null, '1', '0', 'oijXv0NmlB_tZlQpZ9r39aEeCLaY', 'wx', '0', '0', '0.00', 'normal', null, null, '0', null, null);
-INSERT INTO `lr_user` VALUES ('3', '胡一凡', '胡一凡', '', '1501911918', '0', 'https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83epicD2vZsUGiapUtuiaqKXpqcqOP0F9vsUExd04m4tea4c0DtibAMPboqMHtrCOYUYT4mw31mKpHCmHRw/0', null, '0', '', null, '0', '0', 'oijXv0CFhB84iS8A6ECjQTMI9xaY', 'wx', '0', '0', '0.00', 'normal', null, null, '0', null, null);
-INSERT INTO `lr_user` VALUES ('4', '理财', '理财', '', '1501914952', '0', 'https://wx.qlogo.cn/mmopen/vi_32/gpRKxzIFPZBsAbtXPicCZpdSWmicERpphOv2vtaG5KW6jEDpwicJiaksJUT07yr9tKqKqejjbl2TsHkTYRhPrF3okw/0', null, '0', '', null, '1', '0', 'oijXv0KR7yCo3vQj_ZKBFDHUncgQ', 'wx', '0', '0', '0.00', 'normal', null, null, '0', null, null);
-INSERT INTO `lr_user` VALUES ('5', 'Mr.C', 'Mr.C', '', '1502159691', '0', 'https://wx.qlogo.cn/mmopen/vi_32/ZOt05ibpnKCQRTtqA4ebggAxsZF6GYGt4dnRNpaJicpKO9mRWhwAXjMnP1WiaFTTHalmudPh0IM3wSSseQQjTXibew/0', null, '0', '', null, '1', '0', 'oijXv0H_9Gp3S_WnoTugPeRgIzSo', 'wx', '0', '0', '0.00', 'normal', null, null, '0', null, null);
-INSERT INTO `lr_user` VALUES ('6', 'LeeFon', 'undefined', '', '1504080993', '0', 'https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83epnvYMyMehPIC2TNTiaTvVR8nia9VfddicI1PwvwicH6rBEsN2iaVzcdREEDbmMJ6VBOoYRdWJ8AXJEXNw/0', '18814125843', '0', 'LeeFon', 'lfphper@126.com', '0', '0', 'undefined', 'wx', '0', '0', '0.00', 'normal', '广州乐仁技术有限公司', 'PHP工程师', '1', '我是一个程序猿', 'UploadFiles/personImg/20170905/1504608403848156.png,UploadFiles/personImg/20170905/1504608406937425.png');
-INSERT INTO `lr_user` VALUES ('7', '陈开瑁', '陈开瑁', '', '1504146817', '0', 'https://wx.qlogo.cn/mmopen/vi_32/gHluXVXRkz14KdGTv0og7VpK4XBb9at2twEHROd75k4y8BWUhWxdqDKmMuJ1LgdhhYfGDSeEtQDhxSGZtXCr2Q/0', null, '0', '', null, '1', '0', 'oijXv0IwTTFOmb3a9yAVlxosWGdE', 'wx', '0', '0', '0.00', 'normal', null, null, '0', null, null);
-INSERT INTO `lr_user` VALUES ('8', '马主任', '马主任', '', '1504147194', '0', 'https://wx.qlogo.cn/mmopen/vi_32/5p0R5zsrFR3FZIicRFCPfeTsXgS5cdLwf9O43VCIv5AuiboWd2CiaM8V2awI0vpIQKr520h6vWjteicb0av7B5VCgQ/0', null, '0', '', null, '1', '0', 'oijXv0GUFnyIA_fpWV0_DCN6h4Hk', 'wx', '0', '0', '0.00', 'normal', null, null, '0', null, null);
+INSERT INTO `lr_user` VALUES ('1', 'Jaswen沛源', 'Jaswen沛源', '46cc468df60c961d8da2326337c7aa58', '1501655432', '0', 'https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83epnvYMyMehPIGxelQ9qwnFuwicqibA2Ie3DmsY4AOpV9RTK14sENia0bBAIVdHorNL4ED6qnEXdPw70A/0', '18814373687', '0', 'weixin123456', '960316350@qq.com', '1', '0', 'oijXv0HrbjeMkHrtCSdw0QFDbsLA', 'wx', '0', '0', '0.00', 'normal', null, null, '0', null, null, null, null, null, '0', null);
+INSERT INTO `lr_user` VALUES ('2', 'Jaswen', 'Jaswen', '', '1501667734', '0', 'https://wx.qlogo.cn/mmopen/vi_32/5yZrD5O4VpLmibVt76ecu3ZswkKjiavlVr46anaw9OxXJ80omz3IeoKQQNaTTYPgzFY5hRBgK0bFffibdgibSG4F3w/0', '1501667734', '0', '', null, '1', '0', 'oijXv0NmlB_tZlQpZ9r39aEeCLaY', 'wx', '0', '0', '0.00', 'normal', null, null, '0', null, null, null, null, null, '0', '');
+INSERT INTO `lr_user` VALUES ('3', '胡一凡', '胡一凡', '', '1501911918', '0', 'https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83epicD2vZsUGiapUtuiaqKXpqcqOP0F9vsUExd04m4tea4c0DtibAMPboqMHtrCOYUYT4mw31mKpHCmHRw/0', null, '0', '', null, '0', '0', 'oijXv0CFhB84iS8A6ECjQTMI9xaY', 'wx', '0', '0', '0.00', 'normal', null, null, '0', null, null, null, null, null, '0', null);
+INSERT INTO `lr_user` VALUES ('4', '理财', '理财', '', '1501914952', '0', 'https://wx.qlogo.cn/mmopen/vi_32/gpRKxzIFPZBsAbtXPicCZpdSWmicERpphOv2vtaG5KW6jEDpwicJiaksJUT07yr9tKqKqejjbl2TsHkTYRhPrF3okw/0', null, '0', '', null, '1', '0', 'oijXv0KR7yCo3vQj_ZKBFDHUncgQ', 'wx', '0', '0', '0.00', 'normal', null, null, '0', null, null, null, null, null, '0', null);
+INSERT INTO `lr_user` VALUES ('5', 'Mr.C', 'Mr.C', '', '1502159691', '0', 'https://wx.qlogo.cn/mmopen/vi_32/ZOt05ibpnKCQRTtqA4ebggAxsZF6GYGt4dnRNpaJicpKO9mRWhwAXjMnP1WiaFTTHalmudPh0IM3wSSseQQjTXibew/0', null, '0', '', null, '1', '0', 'oijXv0H_9Gp3S_WnoTugPeRgIzSo', 'wx', '0', '0', '0.00', 'normal', null, null, '0', null, null, null, null, null, '0', null);
+INSERT INTO `lr_user` VALUES ('6', 'LeeFon', '李锋', '', '1504080993', '0', 'https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83epnvYMyMehPIC2TNTiaTvVR8nia9VfddicI1PwvwicH6rBEsN2iaVzcdREEDbmMJ6VBOoYRdWJ8AXJEXNw/0', '15017380607', '0', 'LeeFon', '5463566@qq.com', '1', '0', 'undefined', 'wx', '0', '0', '0.00', 'normal', '广州乐仁技术有限公司', 'PHP工程师', '1', '大家好', 'UploadFiles/personImg/20170906/1504657822582076.jpg,UploadFiles/personImg/20170907/1504750913663051.png', '广州市天河区', '1994.04.01', '020-5836458', '1', 'UploadFiles/user_img/qrcode_6_20170908.jpg');
+INSERT INTO `lr_user` VALUES ('7', '陈开瑁', '陈开瑁', '', '1504146817', '0', 'https://wx.qlogo.cn/mmopen/vi_32/gHluXVXRkz14KdGTv0og7VpK4XBb9at2twEHROd75k4y8BWUhWxdqDKmMuJ1LgdhhYfGDSeEtQDhxSGZtXCr2Q/0', null, '0', '', null, '1', '0', 'oijXv0IwTTFOmb3a9yAVlxosWGdE', 'wx', '0', '0', '0.00', 'normal', null, null, '0', null, null, null, null, null, '0', null);
+INSERT INTO `lr_user` VALUES ('8', '马主任', '马主任', '', '1504147194', '0', 'https://wx.qlogo.cn/mmopen/vi_32/5p0R5zsrFR3FZIicRFCPfeTsXgS5cdLwf9O43VCIv5AuiboWd2CiaM8V2awI0vpIQKr520h6vWjteicb0av7B5VCgQ/0', null, '0', '', null, '1', '0', 'oijXv0GUFnyIA_fpWV0_DCN6h4Hk', 'wx', '0', '0', '0.00', 'normal', null, null, '0', null, null, null, null, null, '0', null);
 
 -- ----------------------------
 -- Table structure for `lr_user_voucher`

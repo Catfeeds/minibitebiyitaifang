@@ -2,26 +2,10 @@
   <view class="personal">
     <view class="personal_head">
       <view class="personal_top">
-        <text class="user_name">{{userInfo.nickName}}</text>
-        <text class="user_profession">{{userinfo.job}}</text>
+        <text class="user_name">{{userinfo.uname?userinfo.uname:''}}</text>
+        <text class="user_profession">{{userinfo.job?userinfo.job:'未添加'}}</text>
       </view>
       <image src="{{userInfo.avatarUrl}}"></image>
-    </view>
-    <view class="phone">
-      <view>电话</view>
-      <text>{{userinfo.tel}}</text>
-    </view>
-    <view class="phone">
-      <view>公司</view>
-      <text class="color">{{userinfo.company}}</text>
-    </view>
-    <view class="phone">
-      <view>Email</view>
-      <text class="color">{{userinfo.email}}</text>
-    </view>
-    <view class="phone">
-      <view>微信号</view>
-      <text class="color">{{userinfo.weixin}}</text>
     </view>
     <view class="phone">
       <view>性别</view>
@@ -29,20 +13,54 @@
       <text class="color" wx:if="{{userinfo.sex==1}}">男</text>
       <text class="color" wx:if="{{userinfo.sex==2}}">女</text>
     </view>
+    
+    <view class="phone">
+      <view>公司</view>
+      <text class="color">{{userinfo.company?userinfo.company:'未添加'}}</text>
+    </view>
+    <view class="phone" wx:if="{{userinfo.is_show == 1}}" bindtap="call" data-phone="{{userinfo.tel}}">
+      <view>手机</view>
+      <text>{{userinfo.tel?userinfo.tel:'未添加'}}</text>
+    </view>
+    
+    <view class="phone" wx:if="{{userinfo.is_show == 1}}" bindtap="call" data-phone="{{userinfo.tel2}}">
+      <view>电话</view>
+      <text>{{userinfo.tel2?userinfo.tel2:'未添加'}}</text>
+    </view>
+ 
+   
+    <view class="phone" wx:if="{{userinfo.is_show == 1}}">
+      <view>Email</view>
+       <text class="color">{{userinfo.email?userinfo.email:'未添加'}}</text> 
+       <button type="primary" class="phone_button"  bindtap="primary">更改</button> 
+    </view>
+
+     <view class="phone">
+      <view>地址</view>
+      <text class="color">{{userinfo.address?userinfo.address:'未添加'}}</text>
+    </view>
+    <view class="phone" wx:if="{{userinfo.is_show == 1}}">
+      <view>生日</view>
+      <text class="color">{{userinfo.shengri?userinfo.shengri:'未添加'}}</text>
+    </view>
+    
   </view>
 </view>
 
   <view class="textarea" wx:if="{{userinfo.intro != ''}}">
-    <view class="textarea_text">更多 </view>
+    <view class="textarea_text">话语栏 </view>
     <textarea bindblur="bindTextAreaBlur"  disabled="false" id="textarea" >{{userinfo.intro}}
     </textarea>
   </view>
    <view class="textarea" wx:if="{{userinfo.intro == ''}}">
-    <view class="textarea_text">更多 </view>
+    <view class="textarea_text">话语栏 </view>
     <textarea bindblur="bindTextAreaBlur" placeholder="这个人很懒，什么都没留下...." disabled="false" >
     </textarea>
   </view>
   <view class="buttom">
      <button type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}"
-        disabled="{{disabled}}" bindtap="primary"> 编辑 </button> 
+        disabled="{{disabled}}" bindtap="primary"> 编辑名片 </button> 
+  </view>
+  <view class="yard">
+    <image src="{{qrcode}}"></image>
   </view>

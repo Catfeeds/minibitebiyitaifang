@@ -5,7 +5,7 @@
       <image src="{{userInfo.avatarUrl}}"></image>
     </view>
     <view class="found_top_text">
-      <view class="found_user_name">{{userInfo.nickName}}</view>
+      <view class="found_user_name">{{userinfo.uname}}</view>
       <view class="found_phone">
         <input type="text" placeholder="请输入常用的手机号" value="{{userinfo.tel}}" name="tel"/>
       </view>
@@ -13,6 +13,25 @@
   </view>
   <view class="found_border">
     
+    <view class="found_company">
+      <view class="found_company_left">
+        <text>姓名<text class="company_text">*</text></text>
+      </view>
+      <view class="input">
+       <input type="text" value="{{userinfo.uname}}" placeholder="请输入姓名" name="uname"/> 
+      </view>
+    </view>
+    <view class="bottom"></view>
+    <view class="found_company">
+      <view class="found_company_left">
+        <text>性别</text>
+      </view>
+        <picker bindchange="pickChange" value="{{index?index:userinfo.sex}}" range="{{array}}" name="sex">
+             {{array[index]?array[index]:temp_sex}}<text class="picker_text">.</text>
+        </picker>
+    </view>
+
+    <view class="bottom"></view>
     <view class="found_company">
       <view class="found_company_left">
         <text>公司<text class="company_text">*</text></text>
@@ -31,6 +50,15 @@
       </view>
     </view>
     <view class="bottom"></view>
+     <view class="found_company">
+      <view class="found_company_left">
+        <text>电话</text>
+      </view>
+      <view class="input">
+       <input type="text" value="{{userinfo.tel2}}" placeholder="请输入座机号" name="tel2"/> 
+      </view>
+    </view>
+    <view class="bottom"></view>
     <view class="found_company">
       <view class="found_company_left">
         <text>Email</text>
@@ -42,28 +70,39 @@
     <view class="bottom"></view>
     <view class="found_company">
       <view class="found_company_left">
-        <text>微信号</text>
+        <text>地址</text>
       </view>
       <view class="input">
-       <input type="text" value="{{userinfo.weixin}}" placeholder="请输入微信号" name="weixin"/> 
+       <input type="text" value="{{userinfo.address}}" placeholder="请输入地址" name="address"/> 
       </view>
     </view>
-    <view class="bottom"></view>
+     <view class="bottom"></view>
     <view class="found_company">
       <view class="found_company_left">
-        <text>性别</text>
+        <text>生日</text>
       </view>
-        <picker bindchange="pickChange" value="{{index?index:userinfo.sex}}" range="{{array}}" name="sex">
-             {{array[index]?array[index]:temp_sex}}<text class="picker_text">.</text>
-        </picker>
+      <view class="input">
+       <input type="text" value="{{userinfo.shengri}}" placeholder="请输入生日" name="shengri"/> 
+      </view>
     </view>
+    
+    
   </view>
+
+
+    <view class="section_big">
+        <view class="section__title">隐私<text class="f1">开启后名片上的电话，邮箱，生日将被隐藏</text></view> 
+        
+        <switch type="switch" checked="{{checkeds}}" bindchange="listenerSwitch" class="section_button"/>
+    </view>
+   
+
   <view class="textarea" wx:if="{{userinfo.intro != ''}}">
-    <view class="textarea_text">更多 </view>
+    <view class="textarea_text">话语栏 </view>
     <textarea bindblur="bindTextAreaBlur" auto-height="false" name="intro" placeholder="{{userinfo.intro}}" value="{{userinfo.intro}}"/>
   </view>
   <view class="textarea" wx:if="{{userinfo.intro == ''}}">
-    <view class="textarea_text">更多 </view>
+    <view class="textarea_text">话语栏 </view>
     <textarea bindblur="bindTextAreaBlur" auto-height="false" placeholder="介绍 说明 寄语 祝福 留言 ......" name="intro"/>
   </view>
   <view class="photograph">

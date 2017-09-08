@@ -6,6 +6,50 @@ Page({
     img:[],
     img_save:[],
     array: ['保密', '男', '女'],
+    checkeds:false
+  },
+  listenerSwitch: function (e) {
+    var that = this;
+    var bool = e.detail.value;
+    if(bool){
+      var is_show = 0;
+    }else{
+      var is_show = 1;
+    }
+    wx.request({
+      url: app.d.ceshiUrl + '/Api/User/change_show',
+      method: 'post',
+      data: {
+        uid: app.globalData.userInfo.id,
+        is_show:is_show
+      },
+      header: {
+        'Content-Type': 'application/x-www-form-urlencoded'
+      },
+      success: function (res) {
+        var status = res.data.status;
+        if(status == 1){
+          wx.showToast({
+            title: res.data.err,
+            duration: 2000,
+          });
+        }else{
+          wx.showToast({
+            title: res.data.err,
+            duration: 2000,
+          });
+        }
+        
+       
+      },
+      error: function (e) {
+        wx.showToast({
+          title: '网络异常！',
+          duration: 2000,
+        });
+      }
+    });
+
   },
   onLoad: function () {
       var that = this;
@@ -37,6 +81,15 @@ Page({
                       var temp_sex = '女';
                   }else{
                       var temp_sex = '';
+                  }
+                  if(userinfo.is_show==1){
+                    that.setData({
+                      checkeds:false
+                    });
+                  }else{
+                    that.setData({
+                      checkeds: true
+                    });
                   }
                   
               }
@@ -73,9 +126,11 @@ Page({
               uid: app.globalData.userInfo.id,
               uname: fdata.uname,
               email: fdata.email,
-              weixin: fdata.weixin,
+              tel2: fdata.tel2,
+              address: fdata.address,
               tel: fdata.tel,
               sex: fdata.sex,
+              shengri: fdata.shengri,
               company: fdata.company,
               job: fdata.job,
               intro: fdata.intro,

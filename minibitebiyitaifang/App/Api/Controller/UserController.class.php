@@ -434,12 +434,14 @@ class UserController extends PublicController {
 			exit();
 		}
 		$arr['tel']=I('request.tel');
+		$arr['tel2']=I('request.tel2');
 		$arr['email']=I('request.email');
-		$arr['weixin']=I('request.weixin');
-		$arr['uname']=I('request.uname');
+		$arr['shengri']=I('request.shengri');
 		$arr['sex']=I('request.sex');
 		$arr['company']=I('request.company');
 		$arr['job']=I('request.job');
+		$arr['uname']=I('request.uname');
+		$arr['address']=I('request.address');
 		$arr['intro']=I('request.intro');
 		$arr['type']=1;
 		// $arr['img'] = I('request.img');
@@ -469,6 +471,22 @@ class UserController extends PublicController {
 		exit();
 		
 	}
+
+	//修改个人信息显示方式 隐藏或显示
+	public function change_show(){
+		$uid = intval($_REQUEST['uid']);
+		$is_show = intval($_REQUEST['is_show']);
+		$data['is_show'] = $is_show;
+		$res = M('user')->where('id='.$uid)->save($data);
+		if($res){
+			echo json_encode(array('status'=>1,'err'=>'设置成功！'));
+			exit();
+		}else{
+			echo json_encode(array('status'=>0,'err'=>'网络错误！'));
+			exit();
+		}
+	}
+
 	/**
 	 * [getShopOrderNum 获得商家待处理订单数量]
 	 * @return [type] [description]
@@ -992,4 +1010,48 @@ class UserController extends PublicController {
 			return $info;
 		}
 	}
+
+	public function getqrcode(){
+        $uid=I("request.uid");
+        if(!$uid){
+            echo json_encode(array("status"=>0,"err"=>"参数不足!"));exit;
+        }
+        
+        $qrcode=M("user")->where("id=$uid")->getField("qrcode");
+        if($qrcode){
+            echo json_encode(array("status"=>1,"err"=>__DATAURL__.$qrcode));
+        }else{
+            echo json_encode(array("status"=>0,"err"=>"您还没有您的小程序码!是否要生成个人专属小程序码?"));
+        }                   
+    }
+    /**
+     * [makeqrcode 生成二维码]
+     * @return [type] [description]
+     */
+    public function makeqrcode(){
+        $uid=I("request.uid");
+        if(!$uid){
+            echo json_encode(array("status"=>0,"err"=>"参数不足!"));exit;
+        }
+
+        $access_token=$this->_getAccessToken();
+        //2
+        $path="pages/personal/personal?linkshipID=".intval($uid);
+        $width=430;
+        $post_data='{"path":"'.$path.'","width":'.$width.'}'; 
+        //$post_data='{"scene":"'.$uid.'","width":'.$width.'}'; 
+        $url="https://api.weixin.qq.com/cgi-bin/wxaapp/createwxaqrcode?access_token=".$access_token;
+        //$url="http://api.weixin.qq.com/wxa/getwxacodeunlimit?access_token=".$access_token;
+        $result=$this->api_notice_increment($url,$post_data);
+        //3
+        $newFilePath='UploadFiles/user_img/qrcode_'.$uid.'_'.date("Ymd",time()).'.jpg';
+        if(empty($result)){
+            $result=file_get_contents("php://input");
+        }
+        $newFile = fopen("Data/".$newFilePath,"w");//打开文件准备写入
+        fwrite($newFile,$result);//写入二进制流到文件
+        fclose($newFile);//关闭文件
+        M("user")->where("id=$uid")->setField("qrcode",$newFilePath);
+        echo json_encode(array("status"=>1,"err"=>__DATAURL__.$newFilePath));
+    }
 }

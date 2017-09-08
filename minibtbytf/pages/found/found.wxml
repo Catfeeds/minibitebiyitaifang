@@ -10,7 +10,22 @@
     </view>
   </view>
   <view class="found_border">
-    
+    <view class="found_company">
+      <view class="found_company_left">
+        <text>姓名<text class="company_text">*</text></text>
+      </view>
+      <input type="text" placeholder="请输入姓名" name="uname" />
+    </view>
+    <view class="bottom"></view>
+    <view class="found_company">
+      <view class="found_company_left">
+        <text>性别</text>
+      </view>
+        <picker bindchange="pickChange" value="{{index}}" range="{{array}}" name="sex">
+             {{array[index]}}<text class="picker_text">.</text>
+        </picker>
+    </view>
+    <view class="bottom"></view>
     <view class="found_company">
       <view class="found_company_left">
         <text>公司<text class="company_text">*</text></text>
@@ -27,29 +42,39 @@
     <view class="bottom"></view>
     <view class="found_company">
       <view class="found_company_left">
+        <text>电话</text>
+      </view>
+      <input type="text" placeholder="请输入电话" name="tel2"/>
+    </view>
+    
+    <view class="bottom"></view>
+    <view class="found_company">
+      <view class="found_company_left">
         <text>Email</text>
       </view>
       <input type="text" placeholder="请输入邮箱" name="email" />
     </view>
+   
     <view class="bottom"></view>
+   <view class="found_company">
+      <view class="found_company_left">
+        <text>地址</text>
+      </view>
+      <input type="text" placeholder="请输入地址" name="address" />
+    </view>
+     <view class="bottom"></view>
     <view class="found_company">
       <view class="found_company_left">
-        <text>微信号</text>
+        <text>生日</text>
       </view>
-      <input type="text" placeholder="请输入微信号" name="weixin"/>
+      <input type="text" placeholder="请输入生日" name="shengri"/>
     </view>
-    <view class="bottom"></view>
-    <view class="found_company">
-      <view class="found_company_left">
-        <text>性别</text>
-      </view>
-        <picker bindchange="pickChange" value="{{index}}" range="{{array}}" name="sex">
-             {{array[index]}}<text class="picker_text">.</text>
-        </picker>
-    </view>
+    
   </view>
+  
+    
   <view class="textarea">
-    <view class="textarea_text">更多 </view>
+    <view class="textarea_text">话语栏 </view>
     <textarea bindblur="bindTextAreaBlur" auto-height="false" placeholder="介绍 说明 寄语 祝福 留言 ......" name="intro"/>
   </view>
   <view class="buttom">

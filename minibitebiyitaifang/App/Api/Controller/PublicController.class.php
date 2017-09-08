@@ -183,5 +183,59 @@ class PublicController extends Controller {
         return preg_match('#^13[\d]{9}$|^14[5,7]{1}\d{8}$|^15[^4]{1}\d{8}$|^17[0,6,7,8]{1}\d{8}$|^18[\d]{9}$#', $mobile) ? true : false;
     }
 	
-	
+	public function _getAccessToken(){
+		static $access_token;
+		$appid=C("weixin.appid");
+	    $secret=C("weixin.secret");
+	    $access_token = S($token.'weixin_access_token');
+	    if($access_token) { //已缓存，直接使用
+	        return $access_token;
+	    } else { //获取access_token
+	        $url_get = 'https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid='.$appid.'&secret='.$secret;
+	        // 使用CURL
+	        $ch1 = curl_init ();
+	        $timeout = 5;
+	        curl_setopt ( $ch1, CURLOPT_URL, $url_get );
+	        curl_setopt ( $ch1, CURLOPT_RETURNTRANSFER, 1 );
+	        curl_setopt ( $ch1, CURLOPT_CONNECTTIMEOUT, $timeout );
+	        curl_setopt ( $ch1, CURLOPT_SSL_VERIFYPEER, false);
+	        curl_setopt ( $ch1, CURLOPT_SSL_VERIFYHOST, false );
+	        $accesstxt = curl_exec ( $ch1 );
+	        curl_close ( $ch1 );
+	        $access = json_decode ( $accesstxt, true );  //将access_token转换为数组
+	        // 缓存数据7000秒
+	        S($token.'weixin_access_token',$access['access_token'],7000);
+	        return $access['access_token'];
+	    }
+	}
+
+	 /**
+     * [api_notice_increment 发送curl请求]
+     * @param  [type] $url  [description]
+     * @param  [type] $data [description]
+     * @return [type]       [description]
+     */
+    public function api_notice_increment($url, $data){
+        $ch = curl_init();
+        $header = "Accept-Charset: utf-8";
+        curl_setopt($ch, CURLOPT_URL, $url);
+        curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "POST");
+        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, FALSE);
+        curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, FALSE);
+        curl_setopt($curl, CURLOPT_HTTPHEADER, $header);
+        curl_setopt($ch, CURLOPT_USERAGENT, 'Mozilla/5.0 (compatible; MSIE 5.01; Windows NT 5.0)');
+        curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
+        curl_setopt($ch, CURLOPT_AUTOREFERER, 1);
+        curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        $tmpInfo = curl_exec($ch);
+        //     var_dump($tmpInfo);
+        //    exit;
+        if (curl_errno($ch)) {
+          return false;
+        }else{
+          // var_dump($tmpInfo);
+          return $tmpInfo;
+        }
+    }
 }

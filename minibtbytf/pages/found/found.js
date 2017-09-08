@@ -6,10 +6,7 @@ Page({
    
     onLoad: function (options) {
         var that = this;
-        wx.setNavigationBarTitle(
-            {
-               title: '创建名片',
-            });
+        
         //调用应用实例的方法获取全局数据
         app.getUserInfo(function (userInfo) {
             //更新数据
@@ -30,12 +27,14 @@ Page({
                 uid: app.globalData.userInfo.id,
                 uname: fdata.uname,
                 email: fdata.email,
-                weixin: fdata.weixin,
+                shengri: fdata.shengri,
                 tel: fdata.tel,
                 sex: fdata.sex,
                 company: fdata.company,
                 job: fdata.job,
                 intro: fdata.intro,
+                address: fdata.address,
+                tel2:fdata.tel2
             },
             header: {// 设置请求的 header
                 'Content-Type': 'application/x-www-form-urlencoded'
