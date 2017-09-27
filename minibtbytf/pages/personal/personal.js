@@ -4,9 +4,25 @@ Page({
       userinfo:[],
       userid:0,
       uid:0,
-      qrcode:''
+      qrcode:'',
+      img:[],
+      showModalStatus:0,
+      url:'',
+      code:[]
     },
-
+    bigger: function (e) {
+    var that = this;
+      //获取当前图片的下表
+      var index = e.currentTarget.dataset.index;
+      //数据源
+      var pictures = e.currentTarget.dataset.url;
+    wx.previewImage({
+      //当前显示下表
+      current: pictures[index],
+      //数据源
+      urls: pictures
+    })
+  },
     onLoad: function (options) {
       var that = this;
       //调用应用实例的方法获取全局数据
@@ -59,7 +75,7 @@ Page({
           'Content-Type': 'application/x-www-form-urlencoded'
         },
         success: function (res) {
-
+        console.log(res.data)
           var userinfo = res.data.userinfo;
           if (userinfo) {
             var type = userinfo.type;
@@ -67,7 +83,8 @@ Page({
             var type = 0;
           }
           that.setData({
-            userinfo: userinfo
+            userinfo: userinfo,
+            img:res.data.img2
           });
           if (type == 0) {
             wx.navigateTo({
@@ -97,7 +114,8 @@ Page({
           if (status == 1) {
             var qrcode = res.data.err;
             that.setData({
-              qrcode: qrcode
+              qrcode: qrcode,
+              code: that.data.code.concat(qrcode)
             });
           } else {
             wx.request({
@@ -150,7 +168,7 @@ Page({
       return {
         title: '我的名片',
         // desc: '精品资讯尽在其中!',
-        path: '/personal/personal?userid=' + parseInt(uid),
+        path: 'page/personal/personal?userid=' + parseInt(uid),
       }
     },
 
@@ -159,5 +177,6 @@ Page({
       wx.makePhoneCall({
         phoneNumber: phone
       })
-    }
+    },
+
 })

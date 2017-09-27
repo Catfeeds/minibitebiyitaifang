@@ -227,7 +227,11 @@ Page({
    * 用户点击右上角分享
    */
   onShareAppMessage: function () {
-
+    return {
+      title: '加盟申请',
+      // desc: '精品资讯尽在其中!',
+      path: '/pages/settled/settled'
+    }
   },
 
   /**

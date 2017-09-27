@@ -6,7 +6,27 @@ Page({
     img:[],
     img_save:[],
     array: ['保密', '男', '女'],
-    checkeds:false
+    checkeds:false,
+    ptype:1
+  },
+  bigger: function (e) {
+    var that = this;
+    if(that.data.ptype==0){
+      that.setData({
+        ptype:1
+      });
+      return false;
+    }
+      //获取当前图片的下表
+       var index = e.currentTarget.dataset.index;
+      //数据源
+       var pictures = e.currentTarget.dataset.url;
+    wx.previewImage({
+      //当前显示下表
+      current: pictures[index],
+      //数据源
+      urls: pictures
+    })
   },
   listenerSwitch: function (e) {
     var that = this;
@@ -255,7 +275,7 @@ Page({
           success: function (res) {
             if (res.data.status == 1) {
               console.log(res.data.img);
-              this.setData({
+              that.setData({
                 img_save: res.data.img,
               });
             } else {
@@ -273,9 +293,11 @@ Page({
           },
         })
       }
-      this.setData({
+      that.setData({
         img: temp_file,
+        ptype:0
       });
     }
-  }
+  },
+ 
 })  

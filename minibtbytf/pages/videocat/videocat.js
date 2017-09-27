@@ -107,7 +107,7 @@ Page({
     return {
       title: '资讯视频',
       // desc: '精品资讯尽在其中!',
-      path: '/page/videocat'
+      path: '/pages/videocat/videocat'
     }
   },
 })

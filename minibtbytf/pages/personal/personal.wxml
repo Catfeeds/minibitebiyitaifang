@@ -9,9 +9,11 @@
     </view>
     <view class="phone">
       <view>性别</view>
-      <text class="color" wx:if="{{userinfo.sex==0}}">保密</text>
+      <text class="color" wx:if="{{userinfo.sex==0}}">保密
+      </text>
       <text class="color" wx:if="{{userinfo.sex==1}}">男</text>
       <text class="color" wx:if="{{userinfo.sex==2}}">女</text>
+       <button type="primary" class="phone_button"  bindtap="primary">编辑</button> 
     </view>
     
     <view class="phone">
@@ -32,7 +34,7 @@
     <view class="phone" wx:if="{{userinfo.is_show == 1}}">
       <view>Email</view>
        <text class="color">{{userinfo.email?userinfo.email:'未添加'}}</text> 
-       <button type="primary" class="phone_button"  bindtap="primary">更改</button> 
+      
     </view>
 
      <view class="phone">
@@ -47,20 +49,26 @@
   </view>
 </view>
 
-  <view class="textarea" wx:if="{{userinfo.intro != ''}}">
+  <view class="textarea" wx:if="{{userinfo.intro}}">
     <view class="textarea_text">话语栏 </view>
-    <textarea bindblur="bindTextAreaBlur"  disabled="false" id="textarea" >{{userinfo.intro}}
+    <textarea bindblur="bindTextAreaBlur"   disabled="false" id="textarea" >{{userinfo.intro}}
     </textarea>
   </view>
-   <view class="textarea" wx:if="{{userinfo.intro == ''}}">
+   <view class="textarea" wx:else>
     <view class="textarea_text">话语栏 </view>
     <textarea bindblur="bindTextAreaBlur" placeholder="这个人很懒，什么都没留下...." disabled="false" >
     </textarea>
   </view>
-  <view class="buttom">
+  <view class="photograph" wx:if="{{img != ''}}">
+    <view class="photograph_img" hidden="" > 
+        <image src="{{item}}" mode="aspecFill" wx:for="{{img}}" bindtap="bigger" data-url="{{img}}" data-index="{{index}}"/>
+    </view>   
+    
+  </view>
+  <!-- <view class="buttom">
      <button type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}"
         disabled="{{disabled}}" bindtap="primary"> 编辑名片 </button> 
-  </view>
+  </view> -->
   <view class="yard">
-    <image src="{{qrcode}}"></image>
+    <image src="{{qrcode}}" bindtap="bigger"  data-url="{{code}}"></image>
   </view>

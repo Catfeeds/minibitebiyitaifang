@@ -176,8 +176,7 @@ Page({
   onShareAppMessage: function () {
     return {
       title: '地址管理',
-      // desc: '精品资讯尽在其中!',
-      path: '/page/address/user-address'
+      path: '/pages/address/user-address/user-address'
     }
   },
 })

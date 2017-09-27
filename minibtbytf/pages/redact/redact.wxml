@@ -97,18 +97,18 @@
     </view>
    
 
-  <view class="textarea" wx:if="{{userinfo.intro != ''}}">
+  <view class="textarea" wx:if="{{userinfo.intro}}">
     <view class="textarea_text">话语栏 </view>
     <textarea bindblur="bindTextAreaBlur" auto-height="false" name="intro" placeholder="{{userinfo.intro}}" value="{{userinfo.intro}}"/>
   </view>
-  <view class="textarea" wx:if="{{userinfo.intro == ''}}">
+  <view class="textarea" wx:else>
     <view class="textarea_text">话语栏 </view>
     <textarea bindblur="bindTextAreaBlur" auto-height="false" placeholder="介绍 说明 寄语 祝福 留言 ......" name="intro"/>
   </view>
   <view class="photograph">
-    <view class="photograph_img" hidden="" wx:for="{{img}}"> 
-        <image src="{{item}}" mode="aspecFill"/>
-        <view class="img_bottom" bindtap="deleImg" data-id="{{index}}">
+    <view class="photograph_img" hidden="" wx:for="{{img}}" bindtap="bigger" data-url="{{img}}" data-index="{{index}}"> 
+        <image src="{{item}}" mode="aspecFill" />
+        <view class="img_bottom" bindtap="deleImg" data-id="{{index}}" data-ptype="0">
           <image src="../../images/dele.png"></image>
         </view>
     </view>   

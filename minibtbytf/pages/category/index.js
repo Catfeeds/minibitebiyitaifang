@@ -107,7 +107,7 @@ Page({
       return {
         title: '全部商品',
         // desc: '精品资讯尽在其中!',
-        path: '/page/category'
+        path: '/pages/category/index'
       }
     },
 })

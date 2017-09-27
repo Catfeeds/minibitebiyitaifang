@@ -323,7 +323,7 @@ onLoad: function (options) {
     return {
       title: '商品推荐',
       // desc: '精品资讯尽在其中!',
-      path: '/page/listdetail'
+      path: '/pages/listdetail/listdetail?ptype=new'
     }
   },
 

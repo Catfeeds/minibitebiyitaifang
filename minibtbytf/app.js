@@ -4,8 +4,8 @@ App({
     hostUrl: 'https://app.gemmy.so',
     hostImg: 'http://img.ynjmzb.net',
     hostVideo: 'http://zhubaotong-file.oss-cn-beijing.aliyuncs.com',
-    ceshiUrl:'http://localhost/minibitebiyitaifang/index.php',
-    // ceshiUrl: 'https://gzleren.com/minibitebiyitaifang/index.php'
+    // ceshiUrl:'http://localhost/minibitebiyitaifang/index.php',
+    ceshiUrl: 'https://gzleren.com/minibitebiyitaifang/index.php'
   },
   onLaunch: function () {
     //调用API从本地缓存中获取数据

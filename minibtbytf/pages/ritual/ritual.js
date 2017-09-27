@@ -81,7 +81,7 @@ Page({
     return {
       title: '购物礼券',
       // desc: '精品资讯尽在其中!',
-      path: '/page/ritual'
+      path: '/pages/ritual/ritual'
     }
   },
 })

@@ -7,8 +7,8 @@ Page({
     shopInfo:{},
     proList:[],
     tabArr: { 
-      curHdIndex: 1, 
-      curBdIndex: 1 
+      curHdIndex: 0, 
+      curBdIndex: 0 
     }, 
     current: 0,
     page:2

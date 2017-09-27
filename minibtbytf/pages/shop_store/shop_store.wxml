@@ -14,7 +14,7 @@
 <!--头部-->
       <view class="tab-left" bindtap="tabFun"> 
           <view class="{{tabArr.curHdIndex=='0'? 'active' : ''}}" id="tab-hd01" data-id="0">简介</view><text style="color:#ccc">|</text>
-          <view class="{{tabArr.curHdIndex=='1'? 'active' : ''}}" id="tab-hd02" data-id="1">产品</view> <text style="color:#ccc">|</text>
+           <view class="{{tabArr.curHdIndex=='1'? 'active' : ''}}" id="tab-hd02" data-id="1">产品</view> <text style="color:#ccc">|</text> 
           <view class="{{tabArr.curHdIndex=='2'? 'active' : ''}}" id="tab-hd03" data-id="2">联系</view> 
       </view> 
 
@@ -32,7 +32,7 @@
  </view>
  </view> 
 <!--2-->
- <view class="right-item {{tabArr.curBdIndex=='1'? 'active' : ''}}" >
+  <view class="right-item {{tabArr.curBdIndex=='1'? 'active' : ''}}" >
 <view class="list">
     <block wx:for="{{proList}}" wx:key="*this">
         <view class="ban">
@@ -40,11 +40,11 @@
                 <image class="banner" mode="aspectFit" src="{{item.photo_x}}" ></image>
           <view class="act-item ellipsis" style="margin-top:10rpx;" >
               <text class="type">{{item.name}}</text>
-            </view>
-              <!--<view class="act-item ellipsis" >
+            </view> 
+              <view class="act-item ellipsis" >
                 <text class="kkk">{{item.intro}}</text>
-            </view>-->
-            <view class="act-item ellipsis" >
+            </view>
+             <view class="act-item ellipsis" >
                 <text style="color:red;font-size:25rpx">¥ {{item.price_yh}}</text>
             </view>
               <view class="act-item ellipsis" >
@@ -55,7 +55,7 @@
     </block>
     <view class="clear mt10" bindtap="getMore" wx:if="{{proList}}">点击查看更多</view>
 </view>
- </view> 
+ </view>  
 
 
 <view class="tab-right"> 

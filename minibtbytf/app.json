@@ -74,7 +74,7 @@
         "pagePath": "pages/shop/shop",
         "iconPath": "images/shoo.png",
         "selectedIconPath": "images/shooo.png",
-        "text": "商铺"
+        "text": "企业"
       },
       {
         "pagePath": "pages/videocat/videocat",

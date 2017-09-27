@@ -116,7 +116,7 @@ Page({
     return {
       title: '资讯分享',
       desc: '精品资讯尽在其中!',
-      path: '/page/inf'
+      path: '/pages/inf/inf?id=' + cat_id
     }
   },
 

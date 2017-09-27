@@ -138,6 +138,10 @@ Page({
    * 用户点击右上角分享
    */
   onShareAppMessage: function () {
-
+    var cat_id = this.data.cat_id;
+    return {
+      title: '资讯锦集',
+      path: '/pages/vid/vid?cat_id=' + cat_id
+    }
   }
 })

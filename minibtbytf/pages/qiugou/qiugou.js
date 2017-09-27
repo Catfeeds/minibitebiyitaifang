@@ -162,7 +162,7 @@ Page({
     return {
       title: '我的需求',
       // desc: '精品资讯尽在其中!',
-      path: '/page/qiugou'
+      path: '/pages/qiugou/qiugou'
     }
   },
 })

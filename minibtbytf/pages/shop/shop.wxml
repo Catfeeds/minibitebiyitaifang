@@ -13,14 +13,14 @@
          <view> 地址：{{item.sheng ? item.sheng : ""}} {{item.city ? item.city : ""}}</view>   
      </view>
      <view class="jinru" bindtap="stroe" data-id="{{item.id}}">
-      <text>进入店铺</text>  
+      <text>进入企业</text>  
      </view>
-<scroll-view scroll-x="true" class="sc" wx:if="{{item.pro_list.length>0}}">
+<!-- <scroll-view scroll-x="true" class="sc" wx:if="{{item.pro_list.length>0}}">
  <view class="one" wx:for="{{item.pro_list}}" wx:for-item="pro" bindtap='jj' data-pid="{{pro.id}}"> 
     <image src="{{pro.photo_x}}"></image>
         <text class="yuan">¥ {{pro.price_yh}}</text>
  </view> 
-</scroll-view>
+</scroll-view> -->
 </view>
 <view class="clear mt10" bindtap="getMore" style="display:{{shopList==''?'none':'block'}}">点击查看更多</view>
 

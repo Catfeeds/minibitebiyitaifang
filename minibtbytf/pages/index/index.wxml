@@ -34,7 +34,7 @@
 
   </view>
   <!--分类-->
-  <view class="df nav">
+   <view class="df nav">
     <view class="df_1" bindtap="qiang">
       <image src="/images/jp.png"></image>
       限时抢购
@@ -48,7 +48,7 @@
     <view class="df_1" bindtap="category">
       <image src="/images/xs.png"></image>全部商品
     </view>
-  </view>
+  </view> 
 
   <view class="df nav">
     <view wx:for="{{newslist}}" class="df_1" data-id="{{item.id}}" data-text="{{item.name}}" bindtap="news">
@@ -58,29 +58,29 @@
   </view>
   <!--推荐内容开始-->
   <!-- <view class="name" bindtap="gotobrand"> -->
-  <view class="name">
-    <i>华军合创</i>
-    <i class="brandclick"></i>
+  <view class="name" bindtap="gotobrand">
+    <i>品牌街</i>
+    <i class="brandclick">></i>
   </view>
   <!--横滑动-->
   <scroll-view scroll-x="true" class="sc">
-    <view class="one" wx:for="{{brand}}" data-text="{{item.name}}" data-id="{{item.id}}" bindtap='news'>
-      <image src="{{item.bz_3}}"></image>
+    <view class="one" wx:for="{{brand}}" data-text="{{item.name}}" data-id="{{item.id}}" bindtap="jj">
+      <image src="{{item.photo}}"></image>
     </view>
   </scroll-view>
 
-  <view class="cont">
+    <view class="cont">
     <navigator url="../product/detail?productId={{item.id}}" hover-class="changestyle" wx:for="{{productData}}">
       <image class="cont_image" src="{{item.photo_x}}"></image>
       <view class="title" style="overflow:hidden;">{{item.name}} </view>
-      <!--<view class="tit">{{item.intro}} </view>-->
+      
       <view class="gmxx">
         <span class="jiage" style="float:left">¥：{{item.price_yh}}</span>
         <span class="xiaoliang" style="float:right">销量：{{item.shiyong}}</span>
       </view>
     </navigator>
-  </view>
-  <!-- <view class="clear mt10" bindtap="getMore" style="display:{{productData==''?'none':'block'}}">点击查看更多</view> -->
+  </view>  
+    <view class="clear mt10" bindtap="getMore" style="display:{{productData==''?'none':'block'}}">点击查看更多</view>  
 
 </view>
 <!--供求-->
@@ -107,7 +107,7 @@
         </view>
         <view class="shiqu">
           <view class="riqi">[{{item.area}}]发布日期：{{item.addtime}}</view>
-          <view class="bianqian">类别：<text>{{item.catname}}</text></view>
+          <!-- <view class="bianqian">类别：<text>{{item.catname}}</text></view> -->
         </view>
         <view class="qiang">
           <span class="dan" bindtap="weixin" data-id="{{item.id}}" data-weixin="{{item.weixin}}">微信</span>
@@ -132,7 +132,7 @@
 
         <view class="shiqu">
           <view class="riqi">[{{item.area}}]发布日期：{{item.addtime}}</view>
-          <view class="bianqian">类别：<text>{{item.catname}}</text></view>
+          <!-- <view class="bianqian">类别：<text>{{item.catname}}</text></view> -->
         </view>
 
 
@@ -171,9 +171,9 @@
     </view>
   </view>
 </view>
-<!-- <view class="lll">
+ <view class="lll">
   <image src="../../images/kf.png">
     <contact-button></contact-button>
     <contact-button></contact-button>
   </image>
-</view> -->
+</view> 

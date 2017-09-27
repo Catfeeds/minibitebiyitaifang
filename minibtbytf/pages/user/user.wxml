@@ -12,11 +12,11 @@
       <image  class="ren" src="../../images/ren.png" ></image>
     </block>
     <!--订单详情-->
-    <view class="qbdd mt10">
+     <view class="qbdd mt10">
     <span class="font_14 c3">全部订单</span>
     <navigator class="fl_r c9 font_12 l_h20" url="../user/dingdan?currentTab=0" hover-class="none" >查看全部订单 ></navigator>
-    </view>
-    <view class="sc df tc bte ">
+    </view> 
+     <view class="sc df tc bte ">
     <navigator class="df_1" url="../user/dingdan?currentTab=0&otype=pay" hover-class="none" >
         <view>
         <image src="/images/dfk.png"></image> 
@@ -44,7 +44,7 @@
           <view><image src="/images/tksh.png"></image></view>
           <text class="font_12">退款/售后<text style="color:red">({{orderInfo.refund_num}})</text></text>
        </navigator>
-    </view>
+    </view> 
     <!--下面-->
     <view class="qbdd mt10">
     <navigator url="../personal/personal">
@@ -56,11 +56,11 @@
       <span class="font_14 c3">地址管理</span>
     </navigator>
     </view>
-    <view class="qbdd mt10">
+    <!-- <view class="qbdd mt10">
     <navigator url="../rituall/rituall">
       <span class="font_14 c3">电子优惠劵</span>
     </navigator>
-    </view>
+    </view> -->
     <view class="qbdd mt10">
     <navigator url="../qiugou/qiugou">
       <span class="font_14 c3">我的需求</span>
@@ -85,7 +85,7 @@
 
     <view class="qbdd mt10" wx:if="{{rzinfo=='normal'}}">
     <navigator url="../real_name/real_name">
-      <span class="font_14 c3">实名认证/开店</span>
+      <span class="font_14 c3">实名认证</span>
     </navigator>
     </view>
 

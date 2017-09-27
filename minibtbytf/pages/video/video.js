@@ -112,6 +112,11 @@ Page({
    * 用户点击右上角分享
    */
   onShareAppMessage: function () {
-  
+    var id = this.data.id;
+    var title = this.data.info.name;
+    return {
+      title: title,
+      path: '/pages/video/video?id=' + id
+    }
   }
 })

@@ -86,7 +86,7 @@ Page({
     return {
       title: '限时抢购',
       // desc: '精品资讯尽在其中!',
-      path: '/page/panic'
+      path: '/pages/panic/panic'
     }
   },
 })

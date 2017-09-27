@@ -125,6 +125,10 @@ Page({
    * 用户点击右上角分享
    */
   onShareAppMessage: function () {
-  
+    return {
+      title: '实名认证',
+      // desc: '精品资讯尽在其中!',
+      path: '/pages/real_name/real_name'
+    }
   }
 })

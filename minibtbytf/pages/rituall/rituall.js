@@ -71,7 +71,7 @@ Page({
     return {
       title: '电子优惠券',
       // desc: '精品资讯尽在其中!',
-      path: '/page/rituall'
+      path: '/pages/rituall/rituall'
     }
   },
 })
